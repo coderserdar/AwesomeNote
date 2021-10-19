@@ -1,0 +1,26 @@
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\Assets\ApplicationIcon.png
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\Awesome Note.dll
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\Awesome Note.pdb
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\en-US\Awesome Note.resources.dll
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\AppManifest.xaml
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\Properties\WMAppManifest.xml
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\Bin\Debug\AwesomeNote_AnyCPU.xap
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\App.g.cs
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\AboutPage.g.cs
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\MainPage.g.cs
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\NoteDetail.g.cs
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\NoteList.g.cs
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\PopupAddFolder.g.cs
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\Awesome Note.g.resources
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\AwesomeNote.Resources.AppResources.resources
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\AwesomeNote.Resources.AppResources.en-US.resources
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\AwesomeNote.csproj.GenerateResource.Cache
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\en-US\Awesome Note.resources.dll
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\Awesome Note.dll
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\Awesome Note.pdb
+D:\KodServer\VisualStudioProjeleri\DbDeneme\DbDeneme\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>तकरीबन</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>अनुप्रयोग के बारे में</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>मैं app का उपयोग करते समय आप आनंद सकता है कि उम्मीद है। मैं app विकसित किया गया था, जबकि मैं आनन्द के लिए काफी है। मैं आप app से कुछ करना चाहते हैं, तो आप इस पेज में coderserdar@outlook.com या उपयोग से संपर्क करें बटन करने के लिए मुझे एक मेल भेज सकते हैं। आप अनुप्रयोग को रेट अगर मैं ऐसा करने के लिए आप की सराहना करेंगे। शुभ दिन। सीएमएस सॉफ्टवेयर</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>बहुत बढ़िया नोट अनुप्रयोग के बारे में</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>सक्रिय</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>फ़ोल्डर जोड़ें</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>वस्तु जोड़ें</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>नोट जोड़े</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>फ़ोल्डर</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>बहुत बढ़िया नोट</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>बहुत बढ़िया नोट</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>अरबी</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>आरोही</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>कम से कम चार अंक</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>पृष्ठभूमि</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>पृष्ठभूमि का रंग</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>पृष्ठभूमि सुविधा</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>मैंने अपने जीवन में एक कार्यक्रम का visuality के ऊपर एक कार्यक्रम की कार्यक्षमता पर महत्व देते हैं। और मैं इन भावनाओं के साथ इस कार्यक्रम बना सकते हैं। लेकिन मुझे लगता है मैं अस्थिर इस app की पृष्ठभूमि का विकास, सब इतने मुझे पसंद नहीं लगता है कि पता है। सामान्य सेटिंग्स में इस कार्यक्रम की पृष्ठभूमि टैब में, आप app करने के लिए एक पृष्ठभूमि रंग या छवि प्रदान कर सकते हैं। पृष्ठभूमि रंग पूरे app पर उपलब्ध है, लेकिन अगर आप चाहते हैं कि आप फ़ोल्डर सेटिंग्स की पृष्ठभूमि अनुभाग में चयनित नोट फ़ोल्डर में करने के लिए एक पृष्ठभूमि छवि प्रदान कर सकते हैं। आप बोर हो, तो आप app की पृष्ठभूमि छवि या चयनित नोट फ़ोल्डर को हटा सकते हैं।</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>पृष्ठभूमि छवि</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>फ़ोल्डर का नाम</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>काला</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>ब्लू</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>भूरा</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>रद्द करना</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>फ़ोल्डर परिवर्तन करें</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>वर्णों की संख्या</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>चीनी</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>हमसे संपर्क करें</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>निर्माण तिथि</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>फोल्डर हटा दें</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>अपने फ़ोल्डर सभी सामग्री के साथ हटा दिया जाएगा। क्या आप सहमत हैं?</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>नोट हटाएं</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>क्या तुम सच में नोट को मिटाना चाहते हैं?</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>अवरोही</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>अंग्रेजी</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>फ़ोल्डर नाम दर्ज करें</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>नोट नाम दर्ज करें</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>पास वर्ड दर्ज करें</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>बाहर निकलें ऐप</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>क्या तुम सच में एप्लिकेशन को बाहर निकलने के लिए करना चाहते हैं?</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>इस फ़ोल्डर में पहले से ही मौजूद है ..</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>फ़ोल्डर का नाम</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>फ़ोल्डर आदेश</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>फ़ोल्डर सेटिंग्स</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>फ़ॉन्ट</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>फ़ॉन्ट परिवार</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>फ़ॉन्ट फ़ीचर</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>क्या आप चाहते हैं जो एक नोट फ़ोल्डर के लिए एक फ़ॉन्ट परिवार और फ़ॉन्ट आकार प्रदान कर सकते हैं। आप एक नोट फ़ोल्डर का चयन करते हैं, तो फ़ोल्डर सेटिंग्स के फ़ॉन्ट अनुभाग में आप इन गुणों असाइन कर सकते हैं। आप सक्रिय फ़ॉन्ट परिवार और पृष्ठ पर फ़ॉन्ट आकार देख सकते हैं। आप एक संपत्ति आवंटित नहीं करते हैं, तो एप्लिकेशन को स्वचालित रूप से Verdana और 26 पिक्सल मूल्यों आवंटित।</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>फ़ॉन्ट आकार</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>चार अंक</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>फ्रेंच</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>जर्मन</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>धूसर</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>हरा</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>आयरिश</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>बोल्ड है</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>तिरछा है</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>इतालवी</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>भाषा सुविधा</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>एप्लिकेशन आपको अंग्रेजी, तुर्की, जर्मन, इतालवी, स्पेनिश, फ्रेंच, पुर्तगाली, चीनी, रूसी, अरबी और फारसी में पूरा समर्थन देता है। आप अनुप्रयोग और मेनू के पन्नों के पूरे में अपनी भाषा देख सकते हैं।</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>आप परिवर्तनों को प्रभावित करने के लिए एप्लिकेशन को पुनः आरंभ कर सकते हैं</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>लॉग इन करें</value>
+  </data>
+  <data name="MainPage.AppBarButtonText" xml:space="preserve">
+    <value>फ़ोल्डर जोड़ें</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>अंतिम संशोधन दिनांक</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>अगली</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>अगले नोट</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ना</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>नोट</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>यह नोट पहले से मौजूद</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>नोट फ़ीचर</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>नोट पेज में, आप अंतर्गत आता है ध्यान दें जो नोट फ़ोल्डर, नोट और पाठ्यक्रम नोट :) की निर्माण तिथि के नाम नोट के नाम देख सकते हैं। आप ध्यान दें फ़ोल्डर में अगले और पिछले नोट करने के लिए नेविगेट कर सकते हैं। आप नोट नाम नल जब आप ध्यान दें का नाम बदल सकते हैं। आप ध्यान दें संदर्भ से सभी का चयन कर सकते हैं और आप नोट विस्तार से देख सकते हैं। आप एसएमएस या ई-मेल के जरिए एक चयनित नोट भेज सकते हैं। आप ध्यान दें हटाना या नोट का नोट फ़ोल्डर बदल सकते हैं।</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>फ़ोल्डर सुविधा नोट</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>एक नोट फ़ोल्डर में, आप नोट फ़ोल्डर में नोटों की सूची देख सकते हैं। आप एक चयनित नोट करने के लिए नेविगेट कर सकते हैं। आप ध्यान दें फ़ोल्डर हटा सकते हैं, लेकिन यदि आप ऐसा करते हैं, तो अनुप्रयोग के चयनित नोट फ़ोल्डर के अंदर नोटों के सभी के साथ नोट फ़ोल्डर हटाएँ। इस वजह से आप इस ऑपरेशन करने से पहले अपने नोट्स सिंक चाहिए। आप फ़ोल्डर या नोट फ़ोल्डर की सेटिंग में बदलाव करने के लिए एक नया नोट जोड़ सकते हैं। आप नोट फ़ोल्डर का नाम नल और जब आप नोट फ़ोल्डर का नाम बदल सकते हैं।</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>जानकारी नोट</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>की सूची नोट</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>नोट नाम</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>आदेश नोट</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>सहेजे गए नोट</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>ओके यू तब</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive सिंक पूरे किए</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>नारंगी</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>आदेश फ़ीचर</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>आप एक चयनित नोट फ़ोल्डर में अपने नोट्स आदेश कर सकते हैं और आप भी अपने नोट फ़ोल्डरों आदेश कर सकते हैं। आप नोटों के आदेश और आरोही या अवरोही क्रम के साथ नाम, निर्माण तिथि और अंतिम संशोधन दिनांक द्वारा फ़ोल्डरों नोट कर सकते हैं। आप सामान्य सेटिंग्स के अन्य सेटिंग अनुभाग में अपने नोट फ़ोल्डरों आदेश कर सकते हैं। आप फ़ोल्डर सेटिंग्स के अन्य सेटिंग अनुभाग में एक विशिष्ट नोट फ़ोल्डर में नोटों आदेश कर सकते हैं। आप पृष्ठ पर आदेश सेटिंग्स मूल्यों देख सकते हैं। आप ऑर्डर करने के लिए नहीं करना चाहते हैं, अनुप्रयोग स्वचालित रूप से आरोही क्रम के साथ नाम से नोट और नोट फ़ोल्डरों आदेश। (एपीपी शुरू जब एप्लिकेशन द्वारा बनाई गई हैं, जो नोट और नोट फ़ोल्डरों को छोड़कर।)</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>आदेश शैली</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>अन्य सेटिंग</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>निष्क्रिय</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>पासवर्ड गलत है</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>पासवर्ड सुविधा</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>एक नोट फ़ोल्डर में, हम फ़ोल्डर सेटिंग्स में पासवर्ड अनुभाग से फ़ोल्डर के लिए एक पासवर्ड असाइन कर सकते हैं। एक ही जगह में, आप चयनित नोट फ़ोल्डर के पासवर्ड को दूर कर सकते हैं। पासवर्ड कम से कम 4 अंक होना है। पासवर्ड के बारे में कोई सीमा सांख्यिक होना चाहिए नहीं है। आप नोट फ़ोल्डर का उपयोग करना चाहते हैं जब पासवर्ड बताए जाने के बाद, कार्यक्रम आप पासवर्ड पूछेंगे। तुम सिर्फ बक्सें करने के लिए पासवर्ड टाइप करने के बाद Enter कुंजी दबा सकते हैं। यह गुण विंडोज फोन के बाजार में पहला है। जैसा कि आप जानते हैं, कई लोगों को अपनी खरीदारी की सूची को छिपाने के लिए नहीं करना चाहते, लेकिन वे कुछ विशेष बैठक नोटों छुपाना चाहते हैं। इस सुविधा के साथ आप आप चाहते हैं जो फ़ोल्डर पासवर्ड असाइन कर सकते हैं।</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>पारणशब्द सुरक्षा</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>पासवर्ड राज्य</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>पासवर्ड सच है</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>फ़ारसी</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>पास वर्ड दर्ज करें</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>पासवर्ड फिर से दर्ज करें</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>पुर्तगाली</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>प्रीवियस</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>पिछले नोट</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>कार्यक्रम सुविधाएँ</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>कार्यक्रम, नोट भेजने के लिए, नोट के नोट फ़ोल्डर बदलने के लिए, पृष्ठभूमि रंग या चयनित नोट फ़ोल्डर, संदर्भ खोज, OneDrive सिंक की छवि बदलने के लिए, आवेदन की पृष्ठभूमि का रंग या छवि बदलने के लिए, नोट फ़ोल्डर बनाने चयनित नोट फ़ोल्डर में पासवर्ड बताए जैसे कुछ विशेषताएं है एसएमएस या ई-मेल, विस्तृत फ़ॉन्ट और आदेश सेटिंग्स, बहु भाषा समर्थन, नोट के बारे में सांख्यिकीय सूचना के माध्यम से। एप्लिकेशन इंस्टॉल करते हैं, एप्लिकेशन को अपने मोबाइल डिवाइस में एक स्थानीय डेटाबेस बनाने और app की सभी जानकारी अपने मोबाइल डिवाइस पर संग्रहीत किया जाएगा। यह आपकी सुरक्षा के लिए है।</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>बैंगनी</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>दर</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>रेड</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>पृष्ठभूमि छवि निकालें</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>सेटिंग्स को दुबारा करें</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>sa</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>रूसी</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>सेव</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>सर्च</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>खोज पूरी</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>खोज फ़ीचर</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>App आपको नोट नाम और नोट संदर्भ में नोटों खोज कर सकते हैं कि एक सुविधा है। इस सुविधा के साथ आप अपने नोट्स के भीतर खो नहीं कर सकते हैं। तुम बस खोज पैरामीटर और प्रेस कुंजी दर्ज लिखें। खोज परिणाम एक ही पेज में दिखाया जाएगा। आप पासवर्ड की रक्षा की है, जो एक नोट फ़ोल्डर में है जो एक नोट का उपयोग करने की कोशिश करते हैं, तो आप नोट फ़ाइल का उपयोग करने के लिए पासवर्ड दर्ज करने के लिए navigated किया जाएगा कि, एक प्रमुख मुद्दा है। इस सुविधा के लिए आपको और आपकी गोपनीयता के लिए है।</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>खोज के परिणाम</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>आप खोज मानदंड भरने के लिए है</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>चुनना</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>सबका चयन करें</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>पर चुना</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>फ़ॉन्ट परिवार का चयन</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>फ़ॉन्ट आकार का चयन करें</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>भाषा चुने</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>का चयन नोट फ़ोल्डर</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>आदेश शैली का चयन</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>आदेश प्रकार का चयन करें</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>चयन करें पासवर्ड राज्य</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>बहुत बढ़िया नोट app के साथ भेजें</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>मेल से भेजें</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>एसएमएस से भेजें</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>पासवर्ड सेट करें</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>शेयर</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>साइन इन करें</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>साइन आउट</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>स्पेनिश</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>नोट सफलतापूर्वक जोड़ दिया गया है</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>नोट फ़ोल्डर सफलतापूर्वक जोड़ दिया गया है</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>पृष्ठभूमि रंग सफलतापूर्वक बदल दिया गया है</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>पृष्ठभूमि छवि सफलतापूर्वक बदल दिया गया है</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>पृष्ठभूमि छवि सफलतापूर्वक निकाल दिया गया</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>फ़ोल्डर का नाम सफलतापूर्वक बदल दिया गया है</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>आपका नोट का फ़ोल्डर सफलतापूर्वक बदली गई</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>नोट नाम सफलतापूर्वक बदल दिया गया है</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>नोट फ़ोल्डर सफलतापूर्वक हटा दिया गया</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>नोट सफलतापूर्वक हटा दिया गया</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>फ़ॉन्ट परिवार सफलतापूर्वक बदल दिया गया है</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>फ़ॉन्ट का आकार सफलतापूर्वक बदल दिया गया है</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>आदेश शैली सफलतापूर्वक बदल दिया गया है</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>आदेश प्रकार सफलतापूर्वक बदल दिया गया है</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>पासवर्ड सफलतापूर्वक निकाल दिया गया है</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>पृष्ठभूमि सेटिंग सफलतापूर्वक पुनर्स्थापित किया गया है</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>आपका नोट सफलतापूर्वक मेल द्वारा भेजे गए</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>आपका नोट सफलतापूर्वक एसएमएस द्वारा भेजे गए</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>पासवर्ड सफलतापूर्वक स्थापित किया गया है</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>सिंक</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>समन्वयन सुविधा</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>इस app के साथ आप अपने OneDrive खाते के साथ अपने सभी नोट्स को सिंक कर सकते हैं। सामान्य सेटिंग्स के कार्यक्रम का समन्वयन अनुभाग में, आप बटन में साइन क्लिक करना चाहिए और आप अपने SkyDrive खाते में प्रवेश करना चाहिए। इस प्रक्रिया के दौरान, आप syncronization को पूरा करने के लिए एप्लिकेशन पहुँच की अनुमति स्वीकार कर लेना चाहिए। प्रवेश प्रक्रिया पूरा करने के बाद, आप सिंक बटन पर क्लिक करना चाहिए और app एक फ़ोल्डर पैदा करेगा (उदाहरण के लिए: ग़जब का नोट (2014/07/21 02.08.57)) और सिंक अपने नोट्स इस फ़ोल्डर में। आप अनुप्रयोग की वर्तमान पृष्ठ से सिंक प्रक्रिया का पालन कर सकते हैं। नोट्स एक पाठ फ़ाइल के रूप में समन्वयित कर रहे हैं और इस पाठ फ़ाइल के अंदर आप नोट के बारे में कुछ विस्तार से जानकारी देख सकते हैं। सिंक किया गया फ़ाइल नाम प्रारूप "आईडी ध्यान दें। + नाम + (नोट फ़ोल्डर नाम) .txt नोट" है। (उदाहरण के लिए "मेरे नोट 1. (मेरा फ़ोल्डर) .txt") आप अपने नोट फ़ोल्डर पासवर्ड पसंद के बारे में हम कोई जानकारी नहीं कर सकते हैं इस कार्यक्रम में विशेष बात यह है ए। आप अपना पासवर्ड भूल गए हैं, तो आप सफलतापूर्वक सिर्फ OneDrive में सिंक अपने नोट्स का उपयोग करके अपने संरक्षित नोटों का उपयोग कर सकते हैं।</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>एक फ़ाइल में सब सिंक</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>तुल्यकालन ...</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>सिस्टम एक गलती है। कृपया बाद में पुन: प्रयास करें ...</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>अनुप्रयोग के सुझावों</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>तुर्की</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>दो पासवर्ड मान ही नहीं हैं</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>वेलकम</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>हाय। मैं नोट लेने की तरह है और मैं पीसी और मोबाइल उपकरणों में कार्यक्रम लेने के नोट की एक बहुत का उपयोग करें। मैं तुम्हारे लिए एप्लिकेशन को ले जा रही एक अच्छा नोट बनाना चाहते हैं। मैं आप अनुप्रयोग संतुष्ट हो जाएगा उम्मीद है।</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>शब्दों की संख्या</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>पीले</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>संस्कृत</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>थाई</value>
+  </data>
+</root>

@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ar</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MY APPLICATION</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>عن</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>إضافة مجلد</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>إضافة بند</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>المجلدات</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>علما رهيبة</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>المجلد التغيير</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>الرجاء إدخال اسم المجلد</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>خروج التطبيق</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>هل تريد حقا لإنهاء التطبيق</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>هذا المجلد موجود بالفعل و</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>قائمة علما</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>حسنا</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>حدد المجلد علما</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>تمت إضافة المجلد علما بنجاح</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>تم تغيير مجلد مذكرة الخاص بك بنجاح</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>تضيف المذكرة</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>الإنجليزية</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>الرجاء إدخال اسم المذكرة</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>إعدادات المجلد</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>الإعدادات العامة</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>ألماني</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>لغة</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>قد تقوم بإعادة تشغيل التطبيق لتؤثر التغييرات</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>هذه المذكرة تمت بالفعل</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>اختر اللغة</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>الأسبانية</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>تمت إضافة علما بنجاح</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>مزامنة</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>التركية</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>نشط</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>الخط</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>أربعة أرقام</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>إعدادات أخرى</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>سلبي</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>كلمة السر هي كاذبة</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>الدولة كلمة المرور</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>كلمة السر هي الحقيقية</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>من فضلك ادخل كلمة السر</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>يرجى إعادة إدخال كلمة المرور</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>اختر الدولة السر</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>تمت إزالة كلمة المرور بنجاح</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>تم تعيين كلمة المرور بنجاح</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>القيم كلمة اثنان ليست نفسها</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>عائلة الخط</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>حجم الخط</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>عريض</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>مائل</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>ملاحظة المحفوظة</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>حدد عائلة الخط</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>حدد حجم الخط</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>تم تغيير الخط الأسرة بنجاح</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>تم تغيير حجم الخط بنجاح</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>تم تغيير اسم المذكرة بنجاح</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>تاريخ الإنشاء</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>تاريخ التعديل</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>ملاحظة اسم</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>المذكرة النظام</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>حدد نوع النظام</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>تم تغيير نوع النظام بنجاح</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>تصاعدي</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>تنازلي</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>نمط النظام</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>حدد نمط النظام</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>تم تغيير نمط النظام بنجاح</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>مجلد النظام</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>اسم المجلد</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>عدد الأحرف</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>ملاحظة المعلومات</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>إرسال رهيبة مع ملاحظة التطبيق</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>إرسال بالبريد</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>ارسال الرسائل القصيرة مع</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>تم تغيير اسم المجلد علما بنجاح</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>ملاحظتك أرسلت بنجاح عن طريق البريد</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>ملاحظتك أرسلت بنجاح عن طريق الرسائل القصيرة</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>عدد الكلمات</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>حذف المذكرة</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>هل حقا تريد حذف الملاحظة</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>الملاحظة التالية</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>سابق</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>الملاحظة السابقة</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>تم حذف علما بنجاح</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>اختر</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>مختار</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>اسم المجلد</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>حول التطبيق</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>آمل أن يمكنك الاستمتاع أثناء استخدام التطبيق. لدي الكثير من المرح في حين ط تم تطوير التطبيق. أنا كنت تريد شيئا من التطبيق، ويمكن أن ترسل لي رسالة بريد إلكتروني إلى coderserdar@outlook.com أو استخدام زر الاتصال في هذه الصفحة. إذا كنت تقيم التطبيق ط نقدر ذلك لك. ديك يوم جيد. برامج CMS</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>حول رهيبة مذكرة التطبيق</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>الاتصال بنا</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>أكمل البحث</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>نتائج البحث</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>لديك لملء معايير البحث</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>مجلد حذف</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>المجلد سيتم حذف جميع المحتويات و. هل توافق</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>تم حذف المجلد علما بنجاح</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>تعيين كلمة المرور</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>لا يقل عن أربعة أرقام</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>أدخل كلمة المرور</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>خلفية</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>لون الخلفية</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>صورة الخلفية</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>أسود</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>أزرق</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>أسمر</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>رمادي</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>أخضر</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>البرتقالي</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>أرجواني</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>أحمر</value>
+  </data>
+  <data name="SelectBackgroundColor" xml:space="preserve">
+    <value>حدد لون الخلفية</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>تم تغيير لون الخلفية بنجاح</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>أصفر</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>دخول</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>One Drive</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>توقيع في</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>مذكرة</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>الانتهاء متزامنة OneDrive</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>أبدا</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>حماية كلمة السر</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>تحديد كافة</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>المزامنة</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>إزالة صورة الخلفية</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>تم تغيير صورة الخلفية بنجاح</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>تمت إزالة صورة الخلفية بنجاح</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>ميزة الخلفية</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>أدفع أهمية على وظيفة من برنامج فوق الجودة البصرية من برنامج في حياتي. وأنا إنشاء هذا البرنامج مع هذه المشاعر. ولكن أنا أعلم أن الجميع لا يفكر مثلي ذلك، أطور خلفية هذا التطبيق للتغيير. في علامة التبويب الخلفية البرنامج في إعدادات عامة، يمكنك تعيين لون الخلفية أو صورة إلى التطبيق. لون الخلفية متاح في التطبيق كله، ولكن إذا أردت يمكنك تعيين صورة خلفية للاختيار مجلد ملاحظة في قسم خلفية إعدادات المجلد. عندما كنت تشعر بالملل، يمكنك إزالة صورة الخلفية من التطبيق أو مجلد الملاحظة المحددة.</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>ميزة الخط</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>يمكنك تعيين عائلة الخط وحجم الخط إلى مجلد المذكرة التي تريدها. عند تحديد مجلد علما في قسم الخط من إعدادات المجلد يمكنك تعيين هذه الخصائص. يمكنك أن ترى عائلة الخط النشطة وحجم الخط على الصفحة. إذا لم تقم بتعيين خاصية، التطبيق تعيين تلقائيا فيردانا وستة وعشرين القيم بكسل</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>ميزة اللغة</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>التطبيق يوفر لك الدعم الكامل في اللغة الإنجليزية، التركية، الألمانية، الإيطالية والإسبانية والفرنسية والبرتغالية والصينية والروسية والعربية والفارسية. يمكنك تشاهد اللغة الخاصة بك كليا من صفحات التطبيق والقوائم</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>ميزة الملاحظة</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>في صفحة الملاحظات، يمكنك رؤية اسم المذكرة، واسم المجلد مذكرة التي ينتمي ملاحظة، تاريخ إنشاء المذكرة وبطبيعة الحال علما  يمكنك التنقل إلى الملاحظة التالية والسابقة في المجلد المذكرة. يمكنك تغيير اسم هذه المذكرة عند النقر على اسم المذكرة. يمكنك تحديد كافة سياق المذكرة وتستطيع أن ترى في المذكرة بالتفصيل. يمكنك إرسال الملاحظة المحددة عبر الرسائل القصيرة أو البريد الإلكتروني. يمكنك حذف الملاحظة أو تغيير المجلد علما بالمذكرة</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>ميزة المجلد علما</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>في مجلد الملاحظة، يمكنك ان ترى قائمة من الملاحظات في مجلد المذكرة. يمكنك التنقل إلى الملاحظة المحددة. يمكنك حذف المجلد علما، ولكن عندما تفعل هذا، التطبيق حذف المجلد علما مع كافة الملاحظات داخل مجلد الملاحظة المحددة. بسبب هذا يجب عليك مزامنة الملاحظات الخاصة بك قبل القيام بهذه العملية. يمكنك إضافة ملاحظة جديدة إلى مجلد أو تغيير إعدادات المجلد المذكرة. ويمكنك تغيير اسم المجلد مذكرة عند الاستفادة من اسم المجلد المذكرة</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>ميزة النظام</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>يمكنك طلب الملاحظات في مجلد الملاحظة المحددة ويمكنك أيضا أن تأمر المجلدات ملاحظتك. يمكنك طلب الملاحظات والمجلدات مذكرة الاسم، تاريخ الإنشاء وتاريخ التعديل الأخير مع تصاعدي أو تنازلي. يمكنك طلب المجلدات ملاحظتك في المقطع إعدادات أخرى من الإعدادات العامة. يمكنك طلب الملاحظات في مجلد محدد ملاحظة في المقطع إعدادات أخرى من إعدادات المجلد. تستطيع أن ترى في القيم إعدادات النظام على الصفحة. إذا كنت لا تريد أن تأمر، من أجل التطبيق تلقائيا الملاحظات والمجلدات مذكرة الاسم مع ترتيب تصاعدي. (باستثناء الملاحظات والمجلدات المذكرة التي يتم إنشاؤها بواسطة التطبيق عند بدء التطبيق.)</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>ميزة كلمة المرور</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>في مجلد المذكرة، ويمكن تعيين كلمة مرور لمجلد من قسم المرور في إعدادات المجلد. في نفس المكان، يمكنك إزالة كلمة المرور من المجلد الملاحظة المحددة. كلمة يجب أن تكون على الأقل أربعة أرقام. هو يجب أن يكون أي قيود حول كلمة رقمية هناك. بعد تعيين كلمة المرور، البرنامج سوف يطلب منك كلمة السر عندما تريد الوصول إلى مجلد المذكرة. يمكنك فقط اضغط على مفتاح الدخول بعد كتابة كلمة المرور إلى مربعات النص. هذه الخاصية هي الأولى في السوق من هاتف ويندوز. كما تعلمون، الكثير من الناس لا تريد إخفاء قوائم التسوق الخاصة بهم ولكنهم يريدون لإخفاء بعض الملاحظات اجتماع خاص. مع هذه الميزة يمكنك تعيين كلمة مرور المجلد الذي تريد</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>ميزات البرنامج</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>البرنامج لديه بعض الميزات مثل إنشاء المجلد علما، تعيين كلمة مرور لمجلد الملاحظة المحددة، وتغيير لون الخلفية أو صورة من التطبيق، تغيير لون الخلفية أو صورة مختارة المجلد علما، بحث السياق، متزامنة OneDrive، تغيير المجلد مذكرة مذكرة، وإرسال مذكرة عبر الرسائل القصيرة أو البريد الإلكتروني، وإعدادات الخط والنظام التفصيلية، دعم متعدد اللغات، ومعلومات إحصائية عن المذكرة. عند تثبيت التطبيق، التطبيق إنشاء قاعدة بيانات المحلية في الجهاز المحمول الخاص بك وسيتم تخزين كافة المعلومات من التطبيق على جهازك المحمول. وهذا هو الأمان</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>ميزة البحث</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>التطبيق لديه ميزة أنه يمكنك البحث في الملاحظات اسم المذكرة وسياق المذكرة. مع هذه الميزة لا يمكنك خسر في ملاحظاتك. كنت مجرد كتابة المعلمة البحث واضغط مفتاح الدخول. سيتم عرض نتائج البحث في نفس الصفحة. هناك نقطة رئيسية، إذا حاولت الوصول إلى المذكرة التي هي في مجلد المذكرة التي محمي بكلمة مرور، سيتم أبحر منك إدخال كلمة المرور للوصول إلى ملف المذكرة. هذه الميزة هو لك وخصوصيتك</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>ميزة المزامنة</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>مع هذا التطبيق يمكنك مزامنة كل الملاحظات الخاصة بك مع حساب OneDrive الخاص بك. في البرنامج قسم مزامنة إعدادات عامة، يجب النقر فوق الزر تسجيل الدخول ويجب أن تدخل SkyDrive الحساب الخاص بك. بينما هذه العملية، يجب عليك قبول إذن الوصول التطبيق لاستكمال متزامنة. بعد الانتهاء من عملية تسجيل الدخول، يجب النقر فوق الزر سوف مزامنة التطبيق وإنشاء مجلد (على سبيل المثال: ممتاز ملاحظة (2014/07/21 02.08.57)) ومزامنة الملاحظات في هذا المجلد. يمكنك متابعة عملية المزامنة من صفحة التطبيق الحالي. تتم مزامنة الملاحظات كملف نصي وداخل هذا الملف النصي ترون بعض المعلومات التفصيلية حول المذكرة. مزامنة تنسيق اسم الملف هو "ملاحظة رقم. + + ملاحظة اسم (لاحظ اسم المجلد). النص". (على سبيل المثال "1. بلدي ملاحظة (المجلد بلدي). النص"). وهناك نقطة خاصة، في هذا البرنامج أننا لا يمكن أن يكون أي معلومات عنك مثل المذكرة كلمة المجلد الخاص بك. إذا كنت قد نسيت كلمة المرور الخاصة بك، يمكنك الوصول بنجاح الملاحظات المحمية فقط باستخدام مزامنة الملاحظات في OneDrive.</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>نصائح من التطبيق</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>ترحيب</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>مرحبا. أحب أخذ الملاحظات، وأنا استخدم الكثير من تدوين الملاحظات برنامج في أجهزة الكمبيوتر الشخصية والأجهزة النقالة. أريد إنشاء مذكرة جيدة مع الأخذ التطبيق بالنسبة لك. آمل أن تكونوا راضين التطبيق</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>النظام لديه خطأ. يرجى المحاولة مرة أخرى في وقت لاحق</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>الصينية</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>فرنسي</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>إيرلندي</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>الإيطالي</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>اللغة الفارسية</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>البرتغالية</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>الروسية</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>حصة</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>مزامنة كل واحد في الملف</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>إعادة تعيين إعدادات</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>إعدادات الخلفية تم إعادة تعيين بنجاح</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>سنسكريتي</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>التايلاندية</value>
+  </data>
+</root>

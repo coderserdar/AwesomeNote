@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>об этом</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>О приложении</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>Я надеюсь, что вы можете наслаждаться при использовании приложения. У меня есть много веселья в то время как я был разработки приложения. Я вы хотите-то от приложения, вы можете отправить мне на почту, чтобы coderserdar@outlook.com или используйте кнопку Связаться на этой странице. Если вы оцените приложение, я буду так оценил вам. Иметь хороший день. ПО CMS</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>О приложении Awesome Note</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Активный</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Добавить папку</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>Добавить элемент</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>Добавить Примечание</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>Папки</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Арабский</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>восходящий</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>Не менее четырех цифр</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>Фон Функция</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>Я плачу важность на функциональности программы выше визуальности программы в моей жизни. И я создаю эту программу с этими чувствами. Но я знаю, что все не думать, как мне так, я развивать фон этого приложения переменчивой. В в General Settings фоновой вкладке программы, можно назначить цвет фона или изображение в приложение. Цвет фона доступен на всей приложения, но если вы хотите, вы можете назначить фоновое изображение для к выбранной папке ноты в Фон разделе Настройки Папки. Когда вам надоест, вы можете удалить фоновое изображение приложения или выбранной папки ноту.</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Фоновое изображение</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>Имя папки</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>черный</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Синий</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Коричневый</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>Изменение папки</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>Количество символов</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Китайский</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>Связаться с нами</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Удалить папку</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>Ваш папка будет удалена со всем содержимым. Согласны ли вы?</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>Удалить Примечание</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>Вы действительно хотите удалить Примечание?</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>нисходящий</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>английский</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>Пожалуйста, введите имя папки</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>Пожалуйста, введите надпись Имя</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Введите пароль</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>Выход App</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>Вы действительно хотите, чтобы выйти из приложения?</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>Эта папка уже существует ..</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>Имя папки</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>Папка Заказать</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>Настройки Папка</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>шрифт</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Шрифты</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>Функция шрифта</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>Вы можете назначить семейство шрифтов и размера шрифта в папку Обратите внимание, какое вы хотите. При выборе папки ноту, в разделе Шрифт параметры папки можно назначить эти свойства. Вы можете увидеть активное семейство шрифтов и размера шрифта на странице. Если вы не назначить свойство, приложение автоматически присвоить Verdana и 26 PX значения.</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Размер шрифта</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>Четыре Цифры</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Французский</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>Немецкий</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Серый</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Зеленый</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>ирландский</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>полужирный</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>курсивом</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>Итальянский</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>Язык Функция</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>Приложение дает вам полную поддержку в английском, турецком, немецком, итальянском, испанском, французском, португальском, китайском, русском, арабском и персидском языках. Вы можете увидеть свой язык в целом из страниц приложения и меню.</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>Вы можете перезапустить приложение, чтобы повлиять на изменения</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="MainPage.AppBarButtonText" xml:space="preserve">
+    <value>Добавить папку</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>Дата последнего изменения</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Следующая</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>Далее Примечание</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>Это Примечание уже существует</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>Примечание Функция</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>На странице ноте, вы можете видеть имя записки, имя папки Обратите внимание, какое внимание принадлежит, дате создания ноте и, конечно, ноты :). Вы можете перейти к следующей и предыдущей заметке в папке ноте. Вы можете изменить название ноты при нажатии название ноты. Вы можете выбрать все контексте ноте, и вы можете видеть детали ноту. Вы можете отправить выбранную ноту через SMS или E-Mail. Вы можете удалить сведению или изменить примечание папку записке.</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>Примечание Функция папки</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>В папке ноте, вы можете видеть список заметок в папке ноте. Вы можете перейти к выбранной заметки. Вы можете удалить папку ноту, но когда вы делаете это, приложение удалить папку ноту со всеми примечаниями внутри выбранной папки ноте. В связи с этим вы должны синхронизировать свои заметки, прежде чем делать эту операцию. Вы можете добавить новое примечание в папку или изменить настройки папки ноте. И вы можете изменить название папки ноте при нажатии имя папки ноте.</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>Примечание информация</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>Примечание Список</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>Примечание Имя</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>Примечание орденом</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>Примечание Сохранено</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Хорошо</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>Завершено OneDrive синхронизации</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Оранжевый</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>Особенность заказа</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>Вы можете заказать свои заметки в выбранной папке ноте, и вы можете также заказать записную папки. Вы можете заказать заметки и отметить папки по имени, дате создания и дате последнего изменения с восходящем или нисходящем порядке. Вы можете заказать записную папки в разделе Другие настройки общих параметров. Вы можете заказать заметки в определенной папке ноты в разделе Настройки Настройки Папки. Вы можете увидеть значения параметров порядка на странице. Если вы не хотите, чтобы заказать, приложение автоматически заказать заметки и заметки папки по имени с возрастающем порядке. (За исключением примечаний и нотных папках, которые создаются приложения при запуске приложение.)</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>Заказать Стиль</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>Другие настройки</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>Пассивный</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>Пароль ложно</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>Пароль Функция</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>В папке ноте, мы можем назначить пароль к папке с раздел Пароль Настройки Папки. В одном месте, вы можете удалить пароль выбранной папки ноте. Пароль должен быть не менее 4 цифры. Существует никаких ограничений о пароле не должно быть числовым. После назначения пароля, программа запросит у вас пароль, если вы хотите, чтобы доступ к папке ноту. Вы можете просто нажать клавишу ввода после ввода пароля для текстовых полей. Это свойство является первым в рыночной площади в Windows Phone. Как вы знаете, многие люди не хотят, чтобы скрыть свои списки покупок, но они хотят, чтобы скрыть некоторые специальные заметки конференц. С помощью этой функции можно назначить пароль, который папку вы хотите.</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>Защита паролем</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>Пароль государство</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>Пароль верно</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>Персидская</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>Введите пароль</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>выбранный пароль</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Португальский</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Предыдущая</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>Предыдущий Примечание</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>Функция программы</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>Программа имеет некоторые функции, такие как создание папки ноту, назначив пароль для выбранной папке ноте, изменить цвет фона или изображение применения, изменить цвет фона или изображение выбранной папки ноте, контекстного поиска, OneDrive синхронизации, изменить папку сведению записку, отправьте сведению через SMS или E-Mail, подробным шрифта и параметры заказа, мульти языковая поддержка, статистической информации о записке. Когда приложение установлено, приложение создать локальную базу данных в мобильном устройстве и вся информация из приложения будут храниться на вашем мобильном устройстве. Это для вашей безопасности.</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Фиолетовый</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Красный</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>Удалить фоновое изображение</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ru</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>русский</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>поиск</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>Поиск завершен</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>Функция поиска</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>Применение имеет функцию, что вы можете искать заметки в пределах названием ноты и контексте ноте. С помощью этой функции вы не можете потерял в своих заметках. Вы просто написать параметр поиска и нажмите клавишу ввода. Результаты поиска будут показаны на этой же странице. Существует ключевой момент, что, если вы пытаетесь получить доступ к сведению, которая находится в папке ноту, которая защищена паролем, вам будет перемещаться ввести пароль для доступа к файлу ноту. Эта функция для вас и вашей личной жизни.</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>Вы должны заполнить критерии поиска</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выберите</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>выбранный</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>Выберите семейство шрифтов</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>Выберите размер шрифта</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Выберите язык</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>Выбор папки Примечание</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>Выберите заказ типа</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>Выберите тип заказа</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>Выберите государство Пароль</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>Отправить с Awesome Note Примечание</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>Отправить с электронной почтой</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>Отправить С помощью SMS</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Установить пароль</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Выход из</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Испанский</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>Примечание была добавлена ​​успешно</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>Примечание Папка была добавлена ​​успешно</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>Цвет фона был изменен успешно</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>Фоновое изображение был успешно изменен</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>Фоновое изображение было успешно устранено</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>Имя папки был успешно изменен</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>Папка заметок успешно изменен</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>Примечание Имя изменено Успешно</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>Примечание папка была успешно удалена</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>Примечание удален Успешно</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>Семейство шрифтов была изменена успешно</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>Размер шрифта был изменен успешно</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>Заказать Стиль был успешно изменен</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>Тип заказа был успешно изменен</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>Пароль была удалена успешно</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>Ваш Примечание успешно отправленных почтой</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>Ваш Примечание успешно отправленных SMS</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>Пароль был установлен успешно</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Синхронизация</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>Функция синхронизации</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>С помощью этого приложения вы можете синхронизировать все ваши заметки с OneDrive внимание. В синхронизации разделе программы общих настроек, необходимо нажать кнопку Вход и вы должны ввести свой ​​аккаунт SkyDrive. В то время как этот процесс, вы должны принять права доступа приложения для завершения синхронизация. После Войти процесс завершен, вы должны нажать кнопку синхронизации и приложение будет создать папку (например: Удивительный Примечание (21.7.2014 02.08.57)) и синхронизации заметок в эту папку. Вы можете следить синхронизации процесса от текущей странице приложения. Примечания синхронизируются в виде текстового файла и внутри этого текстового файла вы можете увидеть некоторые подробную информацию о записке. Синхронизировано формат имени файла "Примечание Id. + Примечание Имя + (Примечание Имя папки) .txt". (например "1 Мой Примечание (Моя папка) .txt") .a специальный пункт, в этой программе мы не можем есть какая либо информация о вам нравится ваш пароль для папки примечание. Если вы забыли свой пароль, вы можете успешно доступ к защищенным заметки только с помощью Синхронизировать заметки в OneDrive.</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>Синхронизация ...</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>Система произошла ошибка. Пожалуйста, повторите попытку позже ...</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Советы применения</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Турецкий</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>Два Пароль значения не же</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>Привет. Мне нравится заметок, и я использую много заметок программу в ПК и мобильных устройств. Я хочу, чтобы создать хороший заметок приложение для вас. Я надеюсь, что вы будете удовлетворены приложение.</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>Количество слов</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Желтый</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>скорость</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>доля</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>Синхронизация Все в одном файле</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Сброс настроек</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>Фоновые Настройки были сброшены Успешно</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>санскрит</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>тайский</value>
+  </data>
+</root>

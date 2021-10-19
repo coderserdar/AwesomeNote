@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>เกี่ยวกับแอพลิเคชัน</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>ฉันหวังว่าคุณอาจจะสนุกกับขณะที่ใช้ app ฉันมีมากของความสนุกสนานในขณะที่ฉันได้รับการพัฒนาแอพพลิเค ฉันคุณต้องการบางสิ่งบางอย่างจากการตรวจสอบที่คุณสามารถส่งอีเมลไปยัง coderserdar@outlook.com หรือการใช้ปุ่มติดต่อในหน้านี้ ถ้าคุณจะให้คะแนน app ที่ฉันจะชื่นชมเพื่อให้คุณ มีวันที่ดี โปรแกรม CMS</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>เกี่ยวกับแอพลิเคชันหมายเหตุน่ากลัว</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>กระตือรือร้น</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>เพิ่มโฟลเดอร์</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>เพิ่มรายการ</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>เพิ่มหมายเหตุ</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>โฟลเดอร์</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>หมายเหตุน่ากลัว</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>หมายเหตุน่ากลัว</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>ภาษาอาหรับ</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>จากน้อยไปมาก</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>อย่างน้อยสี่ตัวเลข</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>พื้นหลัง</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>สีพื้นหลัง</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>คุณลักษณะความเป็นมา</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>ฉันต้องจ่ายเงินให้ความสำคัญกับการทำงานของโปรแกรมดังกล่าวข้างต้น Visuality ของโปรแกรมในชีวิตของฉัน และฉันสร้างโปรแกรมนี้ด้วยความรู้สึกเหล่านี้ แต่ฉันรู้ว่าทุกคนไม่ได้คิดเหมือนผมเพื่อให้ผมพัฒนาพื้นหลังของการตรวจสอบการเปลี่ยนแปลงนี้ ในแท็บประวัติความเป็นมาของโครงการในการตั้งค่าทั่วไป, คุณสามารถกำหนดสีพื้นหลังหรือภาพเพื่อ app สีพื้นหลังที่มีอยู่ในการตรวจสอบทั้งหมด แต่ถ้าคุณต้องการคุณสามารถกำหนดภาพพื้นหลังเพื่อไปยังโฟลเดอร์บันทึกที่เลือกในส่วนที่มาของการตั้งค่าโฟลเดอร์ เมื่อคุณได้รับเบื่อคุณสามารถลบภาพพื้นหลังของ app หรือโฟลเดอร์บันทึกที่เลือก</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>ภาพพื้นหลัง</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>ชื่อโฟลเดอร์</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>สีดำ</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>สีน้ำเงิน</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>สีน้ำตาล</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>เปลี่ยนโฟลเดอร์</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>จำนวนของตัวอักษร</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>จีน</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>ติดต่อกับเรา</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>วันที่สร้าง</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>ลบโฟลเดอร์</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>โฟลเดอร์ของคุณจะถูกลบออกด้วยเนื้อหาทั้งหมด คุณเห็นด้วย?</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>ลบหมายเหตุ</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>คุณจริงๆต้องการลบ?</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>จากน้อยไปมาก</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>อังกฤษ</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>กรุณาใส่ชื่อโฟลเดอร์</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>กรุณาใส่ชื่อหมายเหตุ</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>ป้อนรหัสผ่าน</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>ออกจากโปรแกรม</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>คุณต้องการที่จะออกจากโปรแกรมหรือไม่</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>โฟลเดอร์นี้มีอยู่แล้ว ..</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>ชื่อโฟลเดอร์</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>สั่งซื้อโฟลเดอร์</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>การตั้งค่าโฟลเดอร์</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>ตัวอักษร</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>ครอบครัวตัวอักษร</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>คุณสมบัติ Font</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>คุณสามารถกำหนดครอบครัวอักษรและขนาดตัวอักษรไปยังโฟลเดอร์บันทึกที่คุณต้องการ เมื่อคุณเลือกโฟลเดอร์บันทึกในส่วน Font ของการตั้งค่าโฟลเดอร์ที่คุณสามารถกำหนดคุณสมบัติเหล่านี้ คุณสามารถดูครอบครัวของตัวอักษรที่ใช้งานและขนาดตัวอักษรบนหน้า หากคุณไม่ได้กำหนดสถานที่ให้บริการตรวจสอบโดยอัตโนมัติกำหนด Verdana และ 26 ค่าพิกเซล</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>ขนาดตัวอักษร</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>ตัวเลขสี่หลัก</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>ฝรั่งเศส</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>เยอรมัน</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>สีเทา</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>สีเขียว</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>ชาวไอริช</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>เป็นตัวหนา</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>เป็นตัวเอียง</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>อิตาลี</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>ภาษาคุณลักษณะ</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>การประยุกต์ใช้จะช่วยให้คุณการสนับสนุนอย่างเต็มที่ในอังกฤษ, ตุรกี, เยอรมัน, อิตาลี, สเปน, ฝรั่งเศส, โปรตุเกส, จีน, รัสเซีย, อาหรับและเปอร์เซีย คุณสามารถเห็นภาษาของคุณในภาพรวมของหน้าของการตรวจสอบและเมนู</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>คุณอาจจะเริ่มการทำงานของโปรแกรมที่จะส่งผลกระทบต่อการเปลี่ยนแปลง</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>เข้าสู่ระบบ</value>
+  </data>
+  <data name="MainPage.AppBarButtonText" xml:space="preserve">
+    <value>เพิ่มโฟลเดอร์</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>วันที่แก้ไขล่าสุด</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>ถัดไป</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>หมายเหตุถัดไป</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ไม่</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>หมายเหตุนี้อยู่แล้ว</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>หมายเหตุคุณลักษณะ</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>ในหน้าบันทึกคุณสามารถดูชื่อของบันทึกชื่อของโฟลเดอร์บันทึกที่ทราบเป็นวันที่สร้างของทราบและทราบแน่นอน :) คุณสามารถนำทางไปยังทราบต่อไปและก่อนหน้านี้ในโฟลเดอร์บันทึก คุณสามารถเปลี่ยนชื่อของบันทึกเมื่อคุณแตะชื่อบันทึก คุณสามารถเลือกทุกบริบททราบและคุณสามารถดูรายละเอียดบันทึก คุณสามารถส่งบันทึกที่เลือกผ่านทาง SMS หรือ E-mail คุณสามารถลบหรือเปลี่ยนโฟลเดอร์บันทึกโน้ต</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>หมายเหตุคุณลักษณะโฟลเดอร์</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>บันทึกในโฟลเดอร์ที่คุณสามารถดูรายชื่อของบันทึกในโฟลเดอร์บันทึก คุณสามารถนำทางไปยังบันทึกที่เลือก คุณสามารถลบโฟลเดอร์ทราบ แต่เมื่อคุณทำเช่นนี้แอพพลิเคลบโฟลเดอร์บันทึกที่มีทั้งหมดของการบันทึกในโฟลเดอร์บันทึกที่เลือก ด้วยเหตุนี้คุณควรซิงค์บันทึกย่อของคุณก่อนที่จะทำการดำเนินการนี้ คุณสามารถเพิ่มบันทึกใหม่ไปยังโฟลเดอร์หรือเปลี่ยนการตั้งค่าของโฟลเดอร์บันทึก และคุณสามารถเปลี่ยนชื่อของโฟลเดอร์บันทึกเมื่อคุณแตะชื่อของโฟลเดอร์บันทึก</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>หมายเหตุข้อมูล</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>หมายเหตุรายชื่อของ</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>ชื่อหมายเหตุ</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>หมายเหตุการสั่งซื้อ</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>หมายเหตุงานที่บันทึกไว้</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>ตกลง</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>ซิงค์วันไดรฟ์แล้วเสร็จ</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>สีส้ม</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>คุณสมบัติการสั่งซื้อ</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>คุณสามารถสั่งซื้อบันทึกของคุณในโฟลเดอร์บันทึกที่เลือกและคุณยังสามารถสั่งซื้อโฟลเดอร์บันทึกย่อของคุณ คุณสามารถสั่งซื้อบันทึกและโฟลเดอร์ทราบชื่อวันที่สร้างและวันที่แก้ไขก่อนที่มีลำดับขึ้นหรือลง คุณสามารถสั่งซื้อโฟลเดอร์บันทึกย่อของคุณในการตั้งค่าอื่น ๆ ส่วนของการตั้งค่าทั่วไป คุณสามารถสั่งซื้อบันทึกในโฟลเดอร์ที่บันทึกเฉพาะในส่วนการตั้งค่าอื่น ๆ ของการตั้งค่าโฟลเดอร์ คุณสามารถดูค่าการตั้งค่าคำสั่งบนหน้าเว็บ หากคุณไม่ต้องการที่จะสั่งซื้อตรวจสอบโดยอัตโนมัติบันทึกสั่งซื้อและโฟลเดอร์ที่บันทึกโดยใช้ชื่อที่มีการเรียงลำดับ (ยกเว้นบันทึกและโฟลเดอร์บันทึกซึ่งถูกสร้างขึ้นโดยการตรวจสอบเมื่อการตรวจสอบเริ่มต้น.)</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>สั่งซื้อสไตล์</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>ตั้งค่าอื่น ๆ</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>อยู่เฉยๆ</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>รหัสผ่านเป็นเท็จ</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>รหัสผ่านคุณสมบัติ</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>ในโฟลเดอร์ทราบเราสามารถกำหนดรหัสผ่านไปยังโฟลเดอร์จากส่วนรหัสผ่านในการตั้งค่าโฟลเดอร์ ในสถานที่เดียวกันคุณสามารถลบรหัสผ่านของโฟลเดอร์บันทึกที่เลือก รหัสผ่านจะต้องมีอย่างน้อย 4 หลัก มีข้อ จำกัด เกี่ยวกับรหัสผ่านต้องเป็นตัวเลขไม่เป็น หลังจากที่กำหนดรหัสผ่านโปรแกรมจะขอให้คุณใช้รหัสผ่านที่คุณต้องการที่จะเข้าถึงโฟลเดอร์บันทึก คุณสามารถเพียงแค่กดปุ่ม Enter หลังจากพิมพ์รหัสผ่านเพื่อ textboxes โรงแรมแห่งนี้เป็นครั้งแรกที่ตลาดของ Windows Phone ที่คุณรู้ว่าหลายคนไม่ต้องการที่จะซ่อนรายการช้อปปิ้งของพวกเขา แต่พวกเขาต้องการที่จะซ่อนบางส่วนบันทึกการประชุมพิเศษ ด้วยคุณสมบัตินี้คุณสามารถกำหนดรหัสผ่านที่โฟลเดอร์ที่คุณต้องการ</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>การป้องกันรหัสผ่าน</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>รัฐรหัสผ่าน</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>รหัสผ่านที่เป็นความจริง</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>เปอร์เซีย</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>ป้อนรหัสผ่าน</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>ป้อนรหัสผ่าน</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>โปรตุเกส</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>ก่อน</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>หมายเหตุก่อนหน้า</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>คุณลักษณะของโปรแกรม</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>โปรแกรมมีคุณสมบัติบางอย่างเช่นการสร้างโฟลเดอร์บันทึกการกำหนดรหัสผ่านไปยังโฟลเดอร์บันทึกเลือกเปลี่ยนสีพื้นหลังหรือภาพของโปรแกรมเปลี่ยนสีพื้นหลังหรือภาพของโฟลเดอร์บันทึกเลือกการค้นหาบริบทซิงค์วันไดรฟ์, เปลี่ยนโฟลเดอร์หมายเหตุที่ส่งบันทึก ผ่านทาง SMS หรือ E-mail, รายละเอียดตัวอักษรและการตั้งค่าเพื่อการสนับสนุนหลายภาษา, ข้อมูลสถิติเกี่ยวกับการบันทึก เมื่อตรวจสอบการติดตั้งแอพพลิเคสร้างฐานข้อมูลท้องถิ่นในโทรศัพท์มือถือของคุณและข้อมูลของ app ทั้งหมดจะถูกเก็บไว้บนอุปกรณ์มือถือของคุณ นี่คือการรักษาความปลอดภัยของคุณ</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>สีม่วง</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>ประเมิน</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>สีแดง</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>ลบภาพพื้นหลัง</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>รีเซ็ตการตั้งค่า</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>th</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>รัสเซีย</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>ค้นหา</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>ค้นหาเสร็จสมบูรณ์</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>คุณสมบัติการค้นหา</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>แอพลิเคชันมีคุณสมบัติที่คุณสามารถค้นหาบันทึกภายในทราบชื่อและบริบททราบ ด้วยคุณสมบัตินี้คุณไม่สามารถสูญเสียที่อยู่ในบันทึกของคุณ คุณเพียงแค่เขียนพารามิเตอร์ค้นหาและกดปุ่ม Enter ผลการค้นหาจะแสดงในหน้าเดียวกัน มีจุดสำคัญนั่นคือถ้าคุณพยายามที่จะเข้าถึงบันทึกที่อยู่ในโฟลเดอร์บันทึกที่มีรหัสผ่านป้องกันคุณจะได้รับการสำรวจให้ใส่รหัสผ่านในการเข้าถึงไฟล์บันทึก คุณลักษณะนี้เหมาะสำหรับคุณและความเป็นส่วนตัวของคุณ</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>ผลการค้นหา</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>คุณต้องกรอกเกณฑ์การค้นหา</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>เลือก</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>เลือกทั้งหมด</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>ที่เลือกไว้</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>เลือกครอบครัวตัวอักษร</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>เลือกขนาดตัวอักษร</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>เลือกภาษา</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>เลือกโฟลเดอร์หมายเหตุ</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>เลือกรูปแบบการสั่งซื้อ</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>เลือกประเภทการสั่งซื้อ</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>เลือกรัฐรหัสผ่าน</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>ส่งพร้อมกับใบสมัครหมายเหตุน่ากลัว</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>ส่งจดหมายด้วย</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>ส่งด้วย SMS</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>ตั้งค่ารหัสผ่าน</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>หุ้น</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>เข้าสู่ระบบ</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>ออกจากระบบ</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>สเปน</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>หมายเหตุได้รับการเพิ่มประสบความสำเร็จ</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>หมายเหตุโฟลเดอร์ได้รับการเพิ่มประสบความสำเร็จ</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>สีพื้นหลังได้รับการเปลี่ยนแปลงเรียบร้อยแล้ว</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>ภาพพื้นหลังได้รับการเปลี่ยนแปลงเรียบร้อยแล้ว</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>ภาพพื้นหลังได้รับการลบออกแล้วประสบความสำเร็จ</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>ชื่อโฟลเดอร์ได้รับการเปลี่ยนแปลงเรียบร้อยแล้ว</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>หมายเหตุโฟลเดอร์ของคุณประสบความสำเร็จในการเปลี่ยนแปลง</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>ชื่อหมายเหตุได้รับการเปลี่ยนแปลงเรียบร้อยแล้ว</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>หมายเหตุโฟลเดอร์ถูกลบไปแล้วประสบความสำเร็จ</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>หมายเหตุถูกลบไปแล้วประสบความสำเร็จ</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>ครอบครัวตัวอักษรได้รับการเปลี่ยนแปลงเรียบร้อยแล้ว</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>ขนาดตัวอักษรได้รับการเปลี่ยนแปลงเรียบร้อยแล้ว</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>สไตล์การสั่งซื้อได้รับการเปลี่ยนแปลงเรียบร้อยแล้ว</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>ประเภทการสั่งซื้อได้รับการเปลี่ยนแปลงเรียบร้อยแล้ว</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>รหัสผ่านได้รับการลบออกแล้วประสบความสำเร็จ</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>การตั้งค่าความเป็นมาได้รับการตั้งค่าใหม่ที่ประสบความสำเร็จ</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>หมายเหตุของคุณประสบความสำเร็จโดยการส่งจดหมาย</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>หมายเหตุของคุณประสบความสำเร็จโดยส่ง SMS</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>รหัสผ่านได้รับการตั้งเรียบร้อยแล้ว</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>ซิงค์</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>คุณสมบัติการซิงค์</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>ด้วยโปรแกรมนี้คุณสามารถซิงค์บันทึกย่อทั้งหมดของคุณกับบัญชีวันไดรฟ์ของคุณ ในส่วนของโปรแกรมการซิงค์ของการตั้งค่าทั่วไปคุณควรคลิกปุ่มลงชื่อเข้าใช้และคุณควรจะใส่บัญชี SkyDrive ของคุณ ในขณะที่ขั้นตอนนี้คุณควรจะยอมรับสิทธิ์ในการเข้าถึงแอพพลิเคที่จะเสร็จสมบูรณ์ syncronization หลังจากขั้นตอนการเข้าสู่ระบบเสร็จสมบูรณ์แล้วคุณควรคลิกที่ปุ่มซิงค์และ app จะสร้างโฟลเดอร์ (ตัวอย่างเช่น: หมายเหตุน่ากลัว (2014/07/21 02.08.57)) และซิงค์บันทึกย่อของคุณลงในโฟลเดอร์นี้ คุณสามารถปฏิบัติตามขั้นตอนการซิงค์จากหน้าปัจจุบันของ app หมายเหตุมีการซิงค์เป็นแฟ้มข้อความและภายในแฟ้มข้อความนี้คุณสามารถเห็นบางส่วนรายละเอียดเกี่ยวกับโน้ต รูปแบบชื่อแฟ้มซิงค์คือ "หมายเหตุ Id. + หมายเหตุชื่อ + (หมายเหตุชื่อโฟลเดอร์) .txt" (ตัวอย่างเช่น "1 หมายเหตุของฉัน (My Folder) .txt") ในขณะนี้ A จุดพิเศษคือในโปรแกรมนี้เราไม่สามารถมีข้อมูลใด ๆ เกี่ยวกับการที่คุณต้องการรหัสผ่านโฟลเดอร์บันทึกย่อของคุณ ถ้าคุณลืมรหัสผ่านของคุณคุณจะสามารถเข้าถึงบันทึกการป้องกันของคุณเพียงแค่ใช้ซิงค์บันทึกย่อของคุณในวันไดรฟ์</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>ซิงค์บันทึกในไฟล์</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>ตรงกัน ...</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>ระบบมีความผิดพลาด โปรดลองอีกครั้ง ...</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>เคล็ดลับของการตรวจสอบ</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>ตุรกี</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>สองค่ารหัสผ่านจะไม่เหมือนกัน</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>ยินดีต้อนรับ</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>สวัสดี ผมชอบจดบันทึกและฉันจะใช้เป็นจำนวนมากการจดบันทึกโปรแกรมในเครื่องคอมพิวเตอร์และอุปกรณ์มือถือ ผมต้องการที่จะสร้างบันทึกการปพลิเคชันที่ดีสำหรับคุณ ผมหวังว่าคุณจะได้รับการตรวจสอบความพึงพอใจ</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>จำนวนคำ</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>สีเหลือง</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ใช่</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>ภาษาสันสกฤต</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>ไทย</value>
+  </data>
+</root>

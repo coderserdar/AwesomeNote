@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>关于应用程序</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>我希望你可以在使用应用享受。我有很多的乐趣，而我开发的应用程序。我对你希望从应用程序的东西，你可以在这个页面给我发邮件到coderserdar@outlook.com或使用联系人按钮。如果您对应用程序，我会如此赞赏你。祝你有美好的一天。 CMS软件</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>关于真棒注意应用</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>活动</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>添加文件夹</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>添加项目</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>添加注释</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>阿拉伯语</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>至少四位数字</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>背景颜色</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>背景特征</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>我付了一项计划，在我生命中的可视性上述程序的功能重要性。我创建这个程序有这些感受。但我知道，大家都不觉得像我这样，我开发这个应用程序多变的背景。在常规设置程序的后台选项卡中，你可以指定背景颜色或图像的应用程序。背景颜色可在整个应用程序，但如果你愿意，你可以在文件夹设置的背景部分分配一个背景图像，以选择的注意事项的文件夹。当你感到无聊，你可以删除该应用程序的背景图像或所选音符的文件夹。</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>背景图片</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>文件夹名称</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>黑色</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>蓝</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>布朗</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>更改文件夹</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>字符数</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>中国</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>和我们联系</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>创建日期</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>删除文件夹</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>你的文件夹将与所有内容删除。你同意？</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>删除注释</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>你真的要删除注释？</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>降</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>英语</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>请输入文件夹名称</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>请输入音符名称</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>输入密码</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>退出应用程序</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>你真的要退出应用程序？</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>此文件夹中有已经存在..</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>文件夹名称</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>文件夹订单</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>文件夹设置</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>字体系列</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>字体功能</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>您可以指定字体系列和字体大小要记下的文件夹。当您选择一张纸条文件夹，在文件夹设置的字体部分可以分配这些属性。您可以看到活动的字体系列和页面上的字体大小。如果你不指定属性，应用程序会自动分配宋体和26像素的值。</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>字体大小</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>四位数字</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>法国</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>德国</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>灰色</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>绿色</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>爱尔兰</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>大胆</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>意大利</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>语言功能</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>该应用程序为您提供了英语，土耳其语，德语，意大利语，西班牙语，法语，葡萄牙语，中国语，俄语，阿拉伯语和波斯语的全力支持。你可以看到你的语言在整个应用程序和菜单的页面。</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>您可以重新启动该应用程序影响的变化</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="MainPage.AppBarButtonText" xml:space="preserve">
+    <value>添加文件夹</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>上次修改日期</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>下一个音符</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>注</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>这说明已经存在</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>注意功能</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>在笔记页面，你可以看到记下该名称，有哪些注意事项所属的笔记夹，当然注:)注意和创建日期的名称。您可以导航到下一个和以前记下的笔记文件夹中。您可以更改音符的名称，当你敲击音符名称。您可以选择所有的音符背景下，你可以看到音符的细节。您可以通过短信或电子邮件发送选定的音符。您可以删除注释，或改变音符的音符文件夹中。</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>注意：文件夹功能</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>在一份文件夹，可以看到该说明文件笔记列表。您可以浏览到选定的音符。您可以删除的笔记夹，但是当你做到这一点，应用程序删除备忘文件夹的所有选定音符文件夹内的音符。正因为如此，你应该这样做术前同步你的笔记。您可以添加新的注释到文件夹或更改注意文件夹的设置。你还可以改变注意文件夹的名称，当你轻点笔记文件夹的名称。</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>注意信息</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>注意列表中</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>注意名称</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>请注意订单</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>注意保存</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive同步完成</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>橙</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>为了功能</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>你可以命令你的笔记在选定的笔记文件夹，你也可以命令你的笔记文件夹。您可以订购注意事项，并注意按名称，创建日期和上次修改日期的文件夹与升序或降序排列。您可以订购一般设置的其他设置部分便笺夹。您可以在文件夹设置的其它设置部分特定的笔记文件夹的顺序注意。可以看到在页面上的顺序设置的值。如果你不想订购，应用程序会自动用升序名称顺序笔记和笔记文件夹。 （除注释和笔记文件夹这是由应用程序创建的，当应用程序启动。）</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>订购方式</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>其他设置</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>被动</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>密码是假</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>密码功能</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>在一份文件夹中，我们可以指定一个密码从文件夹设置密码部分文件夹。在同一个地方，你可以删除选定的文件夹注的密码。密码必须是至少4位数。有没有关于密码的限制必须是数字。指定密码后，当你要访问的文件夹。注意程序会问你的密码。您只需按输入密码的文本框后回车键。此属性是第一次在Windows手机的市场。如你所知，很多人并不想隐瞒自己的购物清单，但他们想隐藏一些特殊会议记录。有了这个功能，你可以指定密码，文件夹你想要的。</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>密码保护</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>国家密码</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>密码是真</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>波斯</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>输入密码</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>重新输入密码</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>葡萄牙</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>以前的注</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>方案特点</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>程序有像创建笔记的文件夹，指定密码，选择的注意文件夹的一些功能，改变背景颜色或图片的应用，改变背景颜色或选择注意文件夹，上下文搜索，OneDrive同步的形象，改变音符的音符文件夹，发送笔记通过手机短信或电子邮件，详细的字体和顺序设置，多语言支持，有关注意事项的统计信息。当安装了应用程序，应用程序在移动设备上创建本地数据库和应用程序中的所有信息将被存储在移动设备上。这是您的安全。</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>紫</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>红</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>删除背景图像</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>zh</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>俄罗斯</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>搜索完成</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>搜索功能</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>应用程序有一个可以搜索在音名并注意上下文的笔记功能。有了这个功能，你可以不是你的笔记中丢失。你只写了搜索参数，然后按Enter键。搜索结果将显示在同一个页面中。还有就是，如果您尝试访问的说明是在受密码保护的文件夹，注意，你会被导航到输入密码才能访问笔记文件的一个关键点。此功能是为您和您的隐私。</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>搜索结果</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>你必须填写搜索条件</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>选定</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>选择字体系列</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>选择字体大小</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>选择的语言</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>注意选择的文件夹</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>选择订购方式</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>选择订单类型</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>选择国家密码</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>发送随着真棒注意应用</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>发送邮件用</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>发送短信用</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>设置密码</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>登入</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>西班牙</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>注意已添加成功</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>注意文件夹已被成功添加</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>背景颜色已经更改成功</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>背景图片已成功更改</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>背景图片已成功删除</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>文件夹名称已被更改成功</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>你注意的文件夹改变成功</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>注意名称已更改成功</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>注意文件夹已被删除成功</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>说明已被删除成功</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>字体家族已经变更成功</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>字体大小已变更成功</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>为了风格已成功更改</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>订单类型已成功更改</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>密码已成功删除</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>你注意成功发送到邮箱</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>你注意成功发送到短信</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>密码已成功设置</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>同步功能</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>有了这个程序，你可以同步你所有的笔记与OneDrive帐户。在常规设置程序的同步部分，你应该单击登录按钮，你应该输入你的SkyDrive帐户。而这个过程中，你应该接受应用程序的访问权限来完成同步化。后登录过程完成后，您应该点击同步按钮，程序将创建一个文件夹（例如：真棒注意（2014年7月21日57年2月8日））和同步你的笔记到这个文件夹。您可以按照从应用程序的当前页面的同步过程。笔记同步为一个文本文件，并在这个文本文件中，你可以看到关于该说明的一些详细信息。同步文件名称格式为“请注意编号+注名+（注意文件夹名）。TXT”。 （例如，“1。我注意（我的文件夹）。TXT”）。一个特殊的一点是，这个节目在我们不能有任何有关你喜欢你的笔记文件夹的密码。如果您忘记了密码，你可以用同步你的笔记中OneDrive成功访问受保护的记录。</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>同步...</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>系统有故障。请稍后再试...</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>温馨提示应用程序</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>土耳其</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>在两个密码值是不相同</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>嗨。我喜欢做笔记，我用了大量的笔记程序的PC和移动设备。我想创造一个良好的记笔记的应用程序为您服务。我希望您将得到满意的应用程序。</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>字数</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>黄</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>率</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>份额</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>同步所有在一个文件中</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>复位设置</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>背景设置已重置成功</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>梵语</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>泰国</value>
+  </data>
+</root>

@@ -1,0 +1,73 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AwesomeNote.GeneralSettings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="clr-namespace:Microsoft.Live.Controls;assembly=Microsoft.Live.Controls"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait" 
+     shell:SystemTray.IsVisible="True" BackKeyPress="PhoneApplicationPage_BackKeyPress" Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <phone:Pivot Title="Awesome Note" FontSize="35">
+            <!--Pivot item one-->
+            <phone:PivotItem Name="piLanguage" Header="Language" FontSize="35">
+                <StackPanel Name="spLanguage">
+                    <TextBox Name="lblLanguage" TextWrapping="Wrap" FontSize="20" Text="Language" IsReadOnly="True"></TextBox>
+                    <!--<toolkit:ListPicker Name="lpLanguage" SelectionChanged="lpLanguage_SelectionChanged" SelectedIndex="-1"></toolkit:ListPicker>-->
+                    <Button Name="btnLanguage" Content="Select" Click="btnLanguage_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+            <phone:PivotItem Name="piSync" Header="Sync" FontSize="35">
+                <StackPanel Name="spSync">
+                    <TextBox Name="lblOneDrive" TextWrapping="Wrap" FontSize="20" Text="Onedrive Sync" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <!--<toolkit:ListPicker Name="lpFolderOrder" SelectionChanged="lpFolderOrder_SelectionChanged" SelectedIndex="-1" ></toolkit:ListPicker>-->
+                    <!--<Button Name="btnOneDrive" Content="Select" Click="btnBackgroundColor_Click"></Button>-->
+                    <controls:SignInButton Name="btnOneDrive" SignInText="" SignOutText="" Click="btnOneDrive_Click" ClientId="000000004C120D50" SessionChanged="btnOneDrive_SessionChanged"/>
+                    <CheckBox Name="cbSync"></CheckBox>
+                    <Button x:Name="btnOneDriveSync" Content="Sync" Click="btnOneDriveSync_Click"/>
+                    <ProgressBar Name="pbSync" Height="30" Minimum="0" Maximum="100"></ProgressBar>
+                    <TextBox Name="txtSyncronizing" IsReadOnly="True" BorderBrush="Transparent" Height="72" FontSize="20" Text="Syncronizing..."></TextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <!--Pivot item three-->
+            <phone:PivotItem Name="piBackground" Header="Background">
+                <StackPanel Name="spBackgroundColor">
+                    <TextBox Name="lblBackgroundColor" FontSize="20" Text="Background Color" IsReadOnly="True" FontFamily="Segoe WP" TextWrapping="Wrap"></TextBox>
+                    <!--<toolkit:ListPicker Name="lpFolderOrder" SelectionChanged="lpFolderOrder_SelectionChanged" SelectedIndex="-1" ></toolkit:ListPicker>-->
+                    <Button Name="btnBackgroundColor" Content="Select" Click="btnBackgroundColor_Click"></Button>
+                    <TextBox Name="lblBackgroundImage" FontSize="20" Text="Background Image" IsReadOnly="True" FontFamily="Segoe WP" TextWrapping="Wrap"></TextBox>
+                    <Button Name="btnBackgroundImage" Content="Select" Click="btnBackgroundImage_Click"></Button>
+                    <Button Name="btnRemoveBackgroundImage" Content="Select" Click="btnRemoveBackgroundImage_Click"></Button>
+                    <TextBox Name="txtSpace" IsEnabled="False"></TextBox>
+                    <Button Name="btnResetSettings" Content="Select" Click="btnResetSettings_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+            
+            <!--Pivot item four-->
+            <phone:PivotItem Name="piOtherSettings" Header="Other Settings">
+                <StackPanel Name="spOtherSettings">
+                    <TextBox Name="lblFolderOrder" TextWrapping="Wrap" FontSize="20" Text="Order Folders By" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <!--<toolkit:ListPicker Name="lpFolderOrder" SelectionChanged="lpFolderOrder_SelectionChanged" SelectedIndex="-1" ></toolkit:ListPicker>-->
+                    <Button Name="btnFolderOrder" Content="Select" Click="btnFolderOrder_Click"></Button>
+                    <TextBox Name="lblFolderOrderStyle" TextWrapping="Wrap" FontSize="20" Text="Order Type" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <!--<toolkit:ListPicker Name="lpFolderOrderType" SelectionChanged="lpFolderOrderType_SelectionChanged" SelectedIndex="-1" ></toolkit:ListPicker>-->
+                    <Button Name="btnFolderOrderStyle" Content="Select" Click="btnFolderOrderStyle_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

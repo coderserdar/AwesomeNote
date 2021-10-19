@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>Über Den App</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>Ich hoffe, dass Sie während der Nutzung der App genießen. Ich habe viel Spaß, während ich die Entwicklung der App. Ich Ihnen etwas aus der App möchten, können Sie mir eine Mail zu senden oder coderserdar@outlook.com Kontakt-Button in dieser Seite. Wenn Sie die App bewerten werde ich so zu Ihnen zu schätzen. Haben Sie einen guten Tag. CMS-Software</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>Über The Awesome Note App</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Ordner Hinzufügen</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>Element Hinzufügen</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>Notiz Hinzufügen</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>Ordner</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Arabisch</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Aufsteigend</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>Mindestens Vier Ziffern</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Hintergrund</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Hintergrundfarbe</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>Hintergrund Funktion</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>Ich Wert auf die Funktionalität eines Programms über die Visualität eines Programms in meinem Leben zu bezahlen. Und ich schaffe das Programm mit diesen Gefühlen. Aber ich weiß, dass jeder denkt nicht so wie ich, entwickle ich den Hintergrund dieser App änderbar. Im Hintergrund Registerkarte Programms in den Allgemeinen Einstellungen können Sie eine Hintergrundfarbe oder Bild, um App zuweisen. Hintergrundfarbe ist auf der ganzen App, aber wenn Sie möchten, können Sie ein Hintergrundbild auf ausgewählte Notiz-Ordner im Abschnitt Hintergrund der Ordnereinstellungen zuweisen. Wenn Sie sich langweilen, können Sie das Hintergrundbild der App oder ausgewählte Notiz-Ordner zu entfernen.</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Hintergrundbild</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>Ordnername</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Schwarz</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Blau</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Braun</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Stornieren</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>Ordner Wechseln</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>Anzahl Der Zeichen</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chinesisch</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>Kontakt Mit Uns</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Erstellungsdatum</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Ordner Löschen</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>Ihre Ordner mit allen Inhalten gelöscht werden. Sind Sie einverstanden?</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>Hinweis Löschen</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>Wünschen Sie Löschen Hinweis?</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Absteigend</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Englisch</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>Bitte Geben Sie Den Namen Des Ordners</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>Bitte Geben Sie Den Namen Des Notiz</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Geben Sie Das Passwort</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>Anwendung Beenden</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>Wollen Sie Anwendung Beenden?</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>Dieser Ordner Ist Bereits Vorhanden</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>Ordnername</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>Ordner-Sortierung</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>Ordner-Einstellungen</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Schriftart</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Schriftfamilie</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>Schrift Funktion</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>Sie können eine Schriftart und Schriftgröße zu einer Notiz-Ordner, die Sie zuordnen. Wenn Sie eine Note Ordner, in Schriftschnitt der Ordner-Einstellungen können Sie diese Eigenschaften zuweisen auswählen. Sie können die aktive Schriftart und die Schriftgröße auf Seite zu sehen. Wenn Sie eine Eigenschaft zuweisen, weisen Sie die App automatisch Verdana und 26 Pixel-Werte.</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Schriftgröße</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>Vier Ziffern</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Französisch</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Grau</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Grün</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>Irisch</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>Ist Bold</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>Ist Italic</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>Italienisch</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>Sprache Funktion</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>Die App gibt Ihnen die volle Unterstützung in Englisch, Türkisch, Deutsch, Italienisch, Spanisch, Französisch, Portugiesisch, Chinesisch, Russisch, Arabisch und Persisch. Sie können Ihre Sprache ganz von den Seiten der App und Menüs zu sehen.</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>Sie Mögen Starten Der App, Die Änderungen Betreffen</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="MainPage.AppBarButtonText" xml:space="preserve">
+    <value>Ordner Hinzufügen</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>Datum Der Letzten Änderung</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nächste</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>Weiter Hinweis</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nicht</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Hinweis</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>Dieser Hinweis Ist Bereits Vorhanden</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>Hinweis Funktion</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>In der Notiz-Seite können Sie den Namen der Note, die Namen der Notiz-Ordner, beachten Sie gehört, das Erstellungsdatum der Notiz und natürlich note :) sehen. Sie können zum nächsten und vorherigen Note in der Notiz-Ordner navigieren. Sie können den Namen der Note ändern, wenn Sie den Namen der Notiz tippen. Sie können alle der Note Kontext auswählen und Sie können die Notiz Detail zu sehen. Sie können eine ausgewählte Notiz per SMS oder E-Mail zu senden. Sie können Notiz löschen oder ändern Sie die Notiz-Ordner der Note.</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>Hinweis Ordner Funktion</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>In einer Anmerkung Ordner können Sie die Liste der Notizen in der Notiz-Ordner zu sehen. Sie können eine ausgewählte Notiz zu navigieren. Sie können die Notiz Ordner löschen, aber wenn Sie dies tun, löschen Sie die Notiz App Ordner mit all den Noten innerhalb der ausgewählten Note-Ordner. Aus diesem Grund sollten Sie Ihre Notizen, bevor Sie diesen Vorgang synchronisieren. Sie können eine neue Notiz zu Ordner oder ändern Sie die Einstellungen der Note Ordner hinzuzufügen. Und Sie können den Namen der Notiz Ordner zu ändern, wenn Sie den Namen der Notiz-Ordner tippen.</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>Hinweis Informationen</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>Hinweis Liste</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>Hinweis Name</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>Hinweis Bestellen</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>Hinweis Gespeichert</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive Sync Abgeschlossen</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>Bestellen Funktion</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>Sie können Ihre Notizen in einem ausgewählten Ordner Note bestellen und Sie können auch Ihre Notiz Ordner bestellen. Sie können Noten und Noten-Ordner nach Name, Erstellungsdatum und Datum der letzten Änderung mit aufsteigender oder absteigender Reihenfolge zu bestellen. Sie können Ihre Notiz Ordner im Abschnitt Andere Einstellungen Allgemeine Einstellungen zu bestellen. Sie können Notizen in einem besonderen Vermerk Ordner im Abschnitt Andere Einstellungen Ordnereinstellungen bestellen. Sie können die Einstellungen, um Werte auf der Seite zu sehen. Wenn Sie nicht wollen, um zu bestellen, die App automatisch bestellen Noten und Noten-Ordner nach Namen mit aufsteigender Reihenfolge. (Außer die Noten und Noten-Ordner, die von der App erstellt werden, wenn die App zu starten.)</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>Bestellen Stil</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>Andere Einstellungen</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>Passiv</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>Passwort Ist Falsch</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>Passwort Funktion</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>In einer Anmerkung Ordner, können wir ein Passwort vergeben, um von Abschnitt Kennwort in Folder Settings Ordner. Im selben Ort, können Sie das Passwort des ausgewählten Note Ordner zu entfernen. Passwort muss mindestens 4-stellig sein. Es gibt keine Beschränkung über das Passwort muss numerisch sein. Nach der Zuordnung vergessen, wird das Programm Sie das Passwort fragen, wenn Sie zur Kenntnis Ordner zugreifen möchten. Man drückt einfach Enter-Taste nach der Eingabe des Passworts, um die Textfelder. Diese Eigenschaft ist zunächst auf dem Marktplatz des Windows Phone. Wie Sie wissen, wissen viele Menschen nicht wollen, um ihre Einkaufslisten zu verstecken, aber sie einige Sondersitzung Hinweise ausblenden möchten. Mit dieser Funktion können Sie vergessen, welcher Ordner zuweisen wollen Sie.</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>Passwortschutz</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>Passwort Staat</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>Passwort Ist Wahr</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>Persisch</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>Geben Sie Das Passwort</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>Geben Sie Wieder Passwort</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Portugiesisch</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Früher</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>Früher Hinweis</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>Programm Funktion</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>Das Programm hat einige Funktionen, wie das Erstellen von Noten Ordner, die Zuweisung Passwort zum ausgewählten Note Ordner, ändern Sie die Hintergrundfarbe oder Bild der Anwendung, die Hintergrundfarbe oder ein Bild des ausgewählten Note Ordner, Kontext-Suche, OneDrive sync, ändern note Ordner der Notiz, schicken Anmerkung per SMS oder E-Mail, um detaillierte Schriftart und-Einstellungen, Multi-Language-Unterstützung, statistische Informationen über die Note. Wenn die App installiert, App erstellen Sie eine lokale Datenbank auf Ihrem mobilen Gerät und alle Informationen der App wird auf dem mobilen Gerät gespeichert werden. Dies ist für Ihre Sicherheit.</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Lila</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Rot</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>Hintergrundbild Entfernen</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>de</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Russisch</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Sparen</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Suche</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>Suche Abgeschlossen</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>Suche Funktion</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>App verfügt über eine Funktion, die Sie Noten in Notennamen und Noten Kontext suchen. Mit dieser Funktion können Sie nicht in Ihre Notizen verloren. Sie haben soeben schreiben die Suchparameter und drücken Sie Enter. Die Suchergebnisse werden in der gleichen Seite angezeigt. Es ist ein wichtiger Punkt, dass, wenn Sie versuchen, eine Note, die in einer Notiz, die Ordner Passwort geschützt wird, zuzugreifen, werden Sie navigiert, das Passwort einzugeben, um die Notiz Datei zugreifen kann. Diese Funktion ist für Sie und Ihre Privatsphäre.</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Suchergebnisse</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>Sie Haben Zu Füllen Den Suchkriterien</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Wählen</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Alle Auswählen</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Ausgewählt</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>Wählen Sie Schriftfamilie</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>Wählen Sie Schriftgröße</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Wählen Sie Die Sprache</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>Wählen Hinweis Ordner</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>Wählen Bestellen Stil</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>Wählen Auftragsart</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>Wählen Sie Kennwort Staat</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>Senden Mit Awesome Note App</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>Senden Mit Post</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>Senden Mit SMS</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Set Passwort</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Austragen</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Spanisch</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>Hinweis Wurde Erfolgreich Hinzugefügt</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>Hinweis Ordner Wurde Erfolgreich Hinzugefügt</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>Hintergrundfarbe Wurde Erfolgreich Geändert</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>Hintergrundbild Wurde Erfolgreich Geändert</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>Hintergrundbild Wurde Erfolgreich Entfernt</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>Ordnername Wurde Erfolgreich Geändert</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>Ordner Ihres Hinweis Wurde Erfolgreich Geändert</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>Hinweis Namen Wurde Erfolgreich Geändert</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>Hinweis Ordner Wurde Erfolgreich Gelöscht</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>Notiz Wurde Erfolgreich Gelöscht</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>Schriftfamilie Wurde Erfolgreich Geändert</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>Schriftgröße Wurde Erfolgreich Geändert</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>Bestellen Stil Wurde Erfolgreich Geändert</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>Auftragstyp Wurde Erfolgreich Geändert</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>Passwort Wurde Erfolgreich Entfernt</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>Ihr Hinweis Wurde Erfolgreich Per Post</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>Ihr Hinweis Wurde Erfolgreich Per SMS</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>Passwort Wurde Erfolgreich Gesetzt</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Synchronisieren</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>Synchronisieren Funktion</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>Mit dieser App können Sie alle Ihre Notizen mit Ihrem OneDrive Konto synchronisieren. In Sync Abschnitt Allgemeine Einstellungen Programm, sollten Sie klicken Sie auf die Schaltfläche Anmelden und Sie sollten Ihren SkyDrive-Konto eingeben. Während dieser Prozess, sollten Sie die App Zugriffsrechte auf Synchronisation abzuschließen akzeptieren. Nach dem Anmeldevorgang abgeschlossen ist, sollten Sie auf die Schaltfläche Synchronisieren und App wird einen Ordner (zum Beispiel: Awesome Note (2014.07.21 02.08.57)) erstellen und Synchronisieren Sie Ihre Notizen in diesen Ordner. Sie können die Sync-Prozess von App aktuellen Seite zu folgen. Die Noten werden als Text-Datei synchronisiert und innerhalb dieser Textdatei können Sie einige detaillierte Informationen über die Note sehen. Synchronisierte Dateinamen-Format ist "Hinweis Id. + Hinweis + Preis (Anmerkung Ordnername). Txt". (zum Beispiel "ein. My Note (Meine Ordner). txt"). Ein besonderer Punkt ist, dass in diesem Programm können wir keine Informationen über Sie Ihre Notiz-Ordner vergessen mögen. Wenn Sie Ihr Passwort vergessen haben, können Sie erfolgreich Zugriff auf Ihre geschützten Noten nur mit Sync Ihre Notizen in OneDrive.</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>Synchronisieren...</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>System Einen Fehler. Bitte Versuchen Sie Es Später Noch Einmal</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Tipps Der App</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Turkisch</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>Die Zwei Passwort Werte Werden Nicht</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Willkommen</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>Hallo. Ich mag die Noten und ich benutze eine Menge Notizen Programm im PC und mobile Geräte. Ich möchte eine gute Notizen-App für Sie erstellen. Ich hoffe, dass Sie die App erfüllt werden.</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>Anzahl Der Wörter</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Gelb</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Aktie</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>Synchronisieren Sie alle in einer Datei</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Einstellungen Zurücksetzen</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>Hintergrundeinstellungen wurde erfolgreich zurückstellen</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>Sanskrit</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>Thailändisch</value>
+  </data>
+</root>

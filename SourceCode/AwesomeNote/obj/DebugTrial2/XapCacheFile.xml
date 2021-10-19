@@ -1,0 +1,73 @@
+﻿<xapCache source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\bin\DebugTrial2\AwesomeNote.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="27.9.2014 22:40:53">
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\Awesome Note.dll" archivePath="Awesome Note.dll" lastWriteTime="27.9.2014 22:40:49" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\ar\Awesome Note.resources.dll" archivePath="ar\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:49" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\de\Awesome Note.resources.dll" archivePath="de\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:49" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\en\Awesome Note.resources.dll" archivePath="en\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:49" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\es\Awesome Note.resources.dll" archivePath="es\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:49" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\fa-IR\Awesome Note.resources.dll" archivePath="fa-IR\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:49" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\fr\Awesome Note.resources.dll" archivePath="fr\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:49" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\it\Awesome Note.resources.dll" archivePath="it\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\pt\Awesome Note.resources.dll" archivePath="pt\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\ru\Awesome Note.resources.dll" archivePath="ru\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\tr\Awesome Note.resources.dll" archivePath="tr\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\obj\DebugTrial2\zh\Awesome Note.resources.dll" archivePath="zh\Awesome Note.resources.dll" lastWriteTime="27.9.2014 22:40:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\LiveSDK.5.6\lib\WindowsPhone8\de\Microsoft.Live.Controls.resources.dll" archivePath="de\Microsoft.Live.Controls.resources.dll" lastWriteTime="20.7.2014 19:02:45" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\LiveSDK.5.6\lib\WindowsPhone8\en\Microsoft.Live.Controls.resources.dll" archivePath="en\Microsoft.Live.Controls.resources.dll" lastWriteTime="20.7.2014 19:02:45" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\LiveSDK.5.6\lib\WindowsPhone8\es\Microsoft.Live.Controls.resources.dll" archivePath="es\Microsoft.Live.Controls.resources.dll" lastWriteTime="20.7.2014 19:02:45" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\LiveSDK.5.6\lib\WindowsPhone8\fr\Microsoft.Live.Controls.resources.dll" archivePath="fr\Microsoft.Live.Controls.resources.dll" lastWriteTime="20.7.2014 19:02:45" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\LiveSDK.5.6\lib\WindowsPhone8\it\Microsoft.Live.Controls.resources.dll" archivePath="it\Microsoft.Live.Controls.resources.dll" lastWriteTime="20.7.2014 19:02:45" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\LiveSDK.5.6\lib\WindowsPhone8\ru\Microsoft.Live.Controls.resources.dll" archivePath="ru\Microsoft.Live.Controls.resources.dll" lastWriteTime="20.7.2014 19:02:45" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\WPtoolkit.4.2013.08.16\lib\wp8\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll" archivePath="fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll" lastWriteTime="20.7.2014 19:02:47" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\de\System.Windows.Interactivity.resources.dll" archivePath="de\System.Windows.Interactivity.resources.dll" lastWriteTime="25.9.2012 01:44:00" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\en\System.Windows.Interactivity.resources.dll" archivePath="en\System.Windows.Interactivity.resources.dll" lastWriteTime="25.9.2012 01:41:02" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\es\System.Windows.Interactivity.resources.dll" archivePath="es\System.Windows.Interactivity.resources.dll" lastWriteTime="25.9.2012 01:53:14" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\fr\System.Windows.Interactivity.resources.dll" archivePath="fr\System.Windows.Interactivity.resources.dll" lastWriteTime="25.9.2012 01:47:04" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\it\System.Windows.Interactivity.resources.dll" archivePath="it\System.Windows.Interactivity.resources.dll" lastWriteTime="25.9.2012 01:50:00" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\ru\System.Windows.Interactivity.resources.dll" archivePath="ru\System.Windows.Interactivity.resources.dll" lastWriteTime="25.9.2012 02:03:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\AddFolder.png" archivePath="Assets\AddFolder.png" lastWriteTime="25.6.2014 16:37:52" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\AddItem.png" archivePath="Assets\AddItem.png" lastWriteTime="25.6.2014 17:47:00" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="24.6.2014 23:57:14" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\About.png" archivePath="Assets\About.png" lastWriteTime="3.7.2014 18:59:34" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Share.png" archivePath="Assets\Share.png" lastWriteTime="27.8.2014 19:00:59" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Rate.png" archivePath="Assets\Rate.png" lastWriteTime="9.8.2014 16:28:42" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\AwesomeNoteIconSmall.png" archivePath="Assets\AwesomeNoteIconSmall.png" lastWriteTime="4.8.2014 01:06:48" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\AwesomeNoteIconLarge.png" archivePath="Assets\AwesomeNoteIconLarge.png" lastWriteTime="4.8.2014 01:06:48" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\DeleteFolder.png" archivePath="Assets\DeleteFolder.png" lastWriteTime="8.7.2014 02:38:28" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\DeleteNote.png" archivePath="Assets\DeleteNote.png" lastWriteTime="3.7.2014 17:29:27" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Password.jpg" archivePath="Assets\Password.jpg" lastWriteTime="15.7.2014 23:37:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Search.png" archivePath="Assets\Search.png" lastWriteTime="7.7.2014 17:56:06" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\FolderSettings.png" archivePath="Assets\FolderSettings.png" lastWriteTime="3.7.2014 18:50:42" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\AddNote.png" archivePath="Assets\AddNote.png" lastWriteTime="3.7.2014 18:51:10" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\PreviousNote.png" archivePath="Assets\PreviousNote.png" lastWriteTime="3.7.2014 17:28:06" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\NextNote.png" archivePath="Assets\NextNote.png" lastWriteTime="3.7.2014 17:27:56" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Settings.png" archivePath="Assets\Settings.png" lastWriteTime="3.7.2014 17:25:06" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\SendWithMail.png" archivePath="Assets\SendWithMail.png" lastWriteTime="3.7.2014 17:09:07" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\ChangeFolder.png" archivePath="Assets\ChangeFolder.png" lastWriteTime="25.6.2014 17:50:49" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\BigTile.png" archivePath="Assets\BigTile.png" lastWriteTime="1.7.2014 16:47:28" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\NoteInfo.png" archivePath="Assets\NoteInfo.png" lastWriteTime="3.7.2014 16:16:00" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\MediumTile.png" archivePath="Assets\MediumTile.png" lastWriteTime="1.7.2014 16:48:25" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Save.png" archivePath="Assets\Save.png" lastWriteTime="25.6.2014 17:43:45" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\SendWithSMS.png" archivePath="Assets\SendWithSMS.png" lastWriteTime="3.7.2014 16:36:04" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="24.6.2014 23:57:14" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="24.6.2014 23:57:14" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="24.6.2014 23:57:14" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="24.6.2014 23:57:14" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="24.6.2014 23:57:14" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="1.7.2014 16:42:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="1.7.2014 16:42:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="1.7.2014 16:42:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="1.7.2014 16:42:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="1.7.2014 16:42:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="1.7.2014 16:42:50" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\bin\DebugTrial2\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="27.9.2014 22:07:53" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\WindowsPhoneControls.0.3.0\lib\sl4-windowsphone71\CS.Windows.Controls.dll" archivePath="CS.Windows.Controls.dll" lastWriteTime="20.7.2014 19:02:46" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\PhoneThemeManager.2.0\lib\windowsphone8\JeffWilcox.PhoneThemeManager.dll" archivePath="JeffWilcox.PhoneThemeManager.dll" lastWriteTime="4.9.2014 10:15:37" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\LiveSDK.5.6\lib\WindowsPhone8\Microsoft.Live.Controls.dll" archivePath="Microsoft.Live.Controls.dll" lastWriteTime="20.7.2014 19:02:45" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\LiveSDK.5.6\lib\WindowsPhone8\Microsoft.Live.dll" archivePath="Microsoft.Live.dll" lastWriteTime="20.7.2014 19:02:45" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="1.1.2013 17:57:00" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="20.7.2014 19:02:47" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="25.9.2012 01:41:02" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="4.8.2014 01:21:25" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\Assets\AwesomeNoteIconMedium.png" archivePath="Assets\AwesomeNoteIconMedium.png" lastWriteTime="4.8.2014 01:06:48" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeNote\DbDeneme\bin\DebugTrial2\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="27.9.2014 22:39:37" />
+</xapCache>

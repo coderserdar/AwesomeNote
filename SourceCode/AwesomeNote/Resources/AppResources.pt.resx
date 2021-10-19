@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>Sobre O Aplicativo</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>Eu espero que você pode desfrutar durante o uso do aplicativo. Tenho muito divertido, enquanto eu estava desenvolvendo o aplicativo. I você quer algo a partir do aplicativo, você pode me enviar um e-mail para coderserdar@outlook.com ou uso Contato botão nesta página. Se você classifique o app i vai tão apreciado para você. Tenha um bom dia. CMS Software</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>Sobre O Awesome Note App</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Ativa</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Adicionar Pasta</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>Adicionar Item</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>Adicionar Nota</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Árabe</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Crescente</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>Pelo Menos Quatro Dígitos</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Fundo</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Cor De Fundo</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>Função Fundo</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>Eu pago importância na funcionalidade de um programa acima da visualidade de um programa na minha vida. E eu criar este programa com esses sentimentos. Mas eu sei que todo mundo não pensa como eu então, eu desenvolver o pano de fundo deste app mutável. Na guia Plano de fundo do programa, em Configurações Gerais, você pode atribuir uma cor de fundo ou imagem de app. Cor de fundo está disponível em todo o aplicativo, mas se você quiser, pode atribuir uma imagem de fundo para a pasta de nota selecionado na seção de fundo de configurações de pastas. Quando você se cansar, você pode remover a imagem de fundo do aplicativo ou pasta nota selecionada.</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Imagem De Fundo</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>Nome Da Pasta</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Preto</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Marrom</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>Alterar Pasta</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>Número De Caracteres</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chinesa</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>Entre Em Contato Conosco</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Data De Criação</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Excluir Pasta</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>Sua pasta será excluída com todos os índices. Você concorda?</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>Excluir Nota</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>Você realmente deseja apagar Note?</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Descendente</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>Por favor, insira o nome da pasta</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>Por favor, digite a nota nome</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Digite A Senha</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>Sair App</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>Você realmente deseja sair do app?</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>Esta pasta já existe ..</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>Nome Da Pasta</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>Fim Da Pasta</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>Configurações Da Pasta</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Família Da Fonte</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>Função Da Fonte</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>Você pode atribuir uma família e tamanho da fonte para uma pasta nota que você quer. Quando você seleciona uma pasta de nota, na seção Fonte das definições da pasta você pode atribuir essas propriedades. Você pode ver a família da fonte ativa e o tamanho da fonte na página. Se você não atribuir uma propriedade, app atribuir automaticamente o Verdana e 26 valores px.</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Tamanho Da Fonte</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>Quatro Dígitos</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Francês</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>Alemão</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Cinza</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>Irlandês</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>Está Em Negrito</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>é Itálico</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>Italiano</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>Função Da Linguagem</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>O aplicativo oferece suporte completo em Inglês, Turco, Alemão, Italiano, Espanhol, Francês, Português, chinês, russo, árabe e persa. Você pode ver a sua língua em toda as páginas do aplicativo e menus.</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>Você pode reiniciar o aplicativo para afetar as mudanças</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="MainPage.AppBarButtonText" xml:space="preserve">
+    <value>Adicionar Pasta</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>Última Data De Modificação</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>Próxima Nota</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>Esta Nota Já Existe</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>Função Nota</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>Na página de nota, você pode ver o nome de nota, o nome da pasta de nota, que nota pertence, data de criação da nota e da nota claro :). Você pode navegar para o próximo e anterior nota na pasta nota. Você pode alterar o nome da nota quando você tocar no nome da nota. Você pode selecionar todo o contexto nota e você pode ver o detalhe nota. Você pode enviar a nota selecionada via SMS ou e-mail. Você pode excluir ou alterar nota a pasta conhecimento da nota.</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>Função Pasta Nota</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>Em uma pasta de nota, você pode ver a lista de notas na pasta nota. Você pode navegar para a nota selecionada. Você pode excluir a pasta nota, mas quando você faz isso, excluir a pasta app nota com todas as notas dentro da pasta nota selecionada. Devido a isso, você deve sincronizar suas notas antes de fazer esta operação. Você pode adicionar uma nova nota para a pasta ou alterar as configurações da pasta nota. E você pode mudar o nome da pasta de nota quando você toque no nome da pasta de nota.</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>Observe Informações</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>Lista De Notar</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>Nome Da Nota</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>Ordem Nota</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>Nota Guarde</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Está Bem</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive Sincronização Concluída</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Laranja</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>Função De Ordem</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>Você pode pedir as suas notas em uma pasta nota selecionada e você também pode encomendar suas pastas nota. Você pode pedir as notas e nota pastas por nome, data de criação e data da última modificação, com ordem crescente ou decrescente. Você pode encomendar as suas pastas de notas na seção Outras configurações de Configurações Gerais. Você pode pedir as notas em uma pasta específica nota na seção Outras configurações de configurações de pastas. Você pode ver os valores de definições de ordem na página. Se você não quiser encomendar, o app ordenar automaticamente as notas e pastas de notas pelo nome com ordem crescente. (Exceto as notas e pastas de notas que são criados pelo aplicativo quando o aplicativo iniciar.)</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>Ordem Estilo</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>Outras Definições</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>Passiva</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>A Senha é Falsa</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>Função De Senha</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>Em uma pasta de nota, podemos atribuir uma senha para a pasta da seção de senha em Configurações da pasta. No mesmo lugar, você pode remover a senha da pasta nota selecionada. Senha tem que ter no mínimo 4 dígitos. Não há nenhuma limitação sobre a senha deve ser numérica. Depois de atribuir a senha, o programa irá pedir a senha quando você deseja acessar pasta nota. Você pode apenas pressionar a tecla Enter depois de digitar a senha para as caixas de texto. Esta propriedade é o primeiro no mercado do Windows Phone. Como você sabe, muitas pessoas não querem ocultar suas listas de compras, mas eles querem esconder algumas notas de reuniões especiais. Com esse recurso, você pode atribuir a senha qual pasta você quer.</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>Proteção De Senha</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>Senha Estado</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>A Senha é Verdadeira</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>Persa</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>Digite A Senha</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>Digite Novamente A Senha</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Português</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>Nota Anterior</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>Função Do Programa</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>O programa tem alguns recursos como a criação de pasta de nota, a atribuição de senha para pasta nota selecionada, mude a cor de fundo ou imagem de aplicação, alterar a cor de fundo ou imagem de pasta nota selecionada, pesquisa de contexto, sincronização OneDrive, mudar pasta nota da nota, enviar nota via SMS ou e-mail, de fonte detalhada e configurações de pedidos, suporte vários idiomas, informações estatísticas sobre a nota. Quando o aplicativo instalado, aplicativo criar um banco de dados local em seu dispositivo móvel e todas as informações do aplicativo serão armazenados no seu dispositivo móvel. Isto é para sua segurança.</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Roxo</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Vermelho</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>Remover Imagem De Fundo</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>pt</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Russa</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Pesquisa</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>Pesquisa Concluída</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>Função De Pesquisa</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>App tem um recurso que você pode procurar notas dentro nome da nota e do contexto nota. Com esse recurso, você não pode perder dentro de suas notas. Você acabou de escrever o parâmetro de pesquisa e pressione a tecla Enter. Resultados da pesquisa serão apresentados na mesma página. Há um ponto chave que, se você tentar acessar uma nota que está em uma pasta nota que é protegido por senha, você vai ser navegado para inserir a senha para acessar o arquivo de nota. Este recurso é para você e sua privacidade.</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Resultados Da Pesquisa</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>Você tem que preencher os critérios de pesquisa</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Selecione</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Selecionar Tudo</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Selecionado</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>Selecione Família De Fontes</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>Selecione O Tamanho Da Fonte</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Selecione O Idioma</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>Selecionar Pasta Nota</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>Selecione Ordem Estilo</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>Selecione O Tipo De Ordem</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>Selecionar Estado Senha</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>Enviar Com Awesome Note App</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>Enviar Com E-mail</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>Enviar Com SMS</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Definir Senha</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Assinar Em</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Espanhol</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>Nota foi adicionado com sucesso</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>Pasta nota foi adicionada com sucesso</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>Cor de fundo foi alterado com sucesso</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>Imagem de fundo foi alterado com sucesso</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>Imagem de fundo foi removido com sucesso</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>Nome da pasta foi alterada com sucesso</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>Pasta da sua nota foi alterada com sucesso</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>Nome da nota foi alterada com sucesso</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>Nota pasta foi removido com sucesso</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>Nota foi removido com sucesso</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>Família da fonte foi alterado com sucesso</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>Tamanho da letra foi alterada com sucesso</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>Estilo ordem foi alterada com sucesso</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>Tipo de ordem foi alterada com sucesso</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>Senha foi removido com sucesso</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>Nota foi enviada com sucesso por e-mail</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>Nota foi enviada com sucesso por SMS</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>Senha foi definida com sucesso</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Sincronização</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>Função Sincronização</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>Com esse aplicativo você pode sincronizar todas as suas notas com a sua conta OneDrive. Na seção de sincronização de configurações gerais do programa, você deve clicar no botão Entrar e você deve entrar na sua conta do SkyDrive. Embora este processo, você deve aceitar o aplicativo permissão de acesso para completar a sincronização. Após processo de login completo, você deve clicar no botão Sincronizar e aplicativo irá criar uma pasta (por exemplo: nota impressionante (2014/07/21 02.08.57)) e Sinc suas notas para esta pasta. Você pode acompanhar o processo de sincronização a partir da página atual do aplicativo. As notas são sincronizadas como um arquivo de texto e dentro desse arquivo de texto que você pode ver algumas informações detalhadas sobre a nota. Formato do nome do arquivo é sincronizado "Nota Id. + Nota Nome (Nota nome da pasta) .txt +". (por exemplo, "1 Minhas notas (Minha Pasta) txt") .Um ponto especial é, neste programa que não podemos ter qualquer informação sobre você como a senha da pasta nota. Se você esqueceu sua senha, você pode acessar com êxito as suas notas protegidas usando apenas sincronizar suas notas em OneDrive.</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>Sincronizando ...</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>Sistema apresenta uma falha. Tente novamente mais tarde ...</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Dicas De Aplicativo</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Turco</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>Os dois valores senha não são os mesmos</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Bem-vindo</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>Oi. Eu gosto de tomar notas e eu uso um monte de anotações programa no PC e dispositivos móveis. Eu quero criar um bom anotações aplicativo para você. Espero que você ficará satisfeito o aplicativo.</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>Número De Palavras</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Amarelo</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Taxa</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Compartilhar</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>Sincronizar tudo em um único arquivo</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Restaurar Configurações</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>Configurações de fundo foi reiniciada com sucesso</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>Sânscrito</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>Thai</value>
+  </data>
+</root>

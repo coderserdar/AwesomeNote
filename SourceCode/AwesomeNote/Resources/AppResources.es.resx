@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Acerca De</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>Acerca De La Aplicación</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>Espero que usted pueda disfrutar durante el uso de la aplicación. Tengo mucho de diversión, mientras que yo estaba desarrollando la aplicación. Me quieres algo de la aplicación, usted me puede enviar un correo a coderserdar@outlook.com o utilice el botón de contacto en esta página. Si usted califica a la aplicación i tan apreciado para usted. Tenga un buen día. CMS Software</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>Sobre La Aplicación İmpresionante Nota</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Añadir Carpeta</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>Añadir El Artículo</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>Añadir La Nota</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>Carpetas</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>árabe</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Ascendente</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>Al Menos Cuatro Dígitos</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Fondo</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Color De Fondo</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>Característica De Fondo</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>Rindo importancia a la funcionalidad de un programa por encima de la visualidad de un programa en mi vida. Y puedo crear este programa con estos sentimientos. Pero sé que todo el mundo no piensa como yo es así, puedo desarrollar el fondo de esta aplicación variable. En ficha Fondo del programa de Configuración general, se puede asignar un color de fondo o imagen para aplicación. El color de fondo es disponible en toda la aplicación, pero si quieres puedes asignar una imagen de fondo a la carpeta de nota seleccionada en la sección de fondo de Opciones de carpeta. Cuando te aburres, puede quitar la imagen de fondo de la aplicación o carpeta nota seleccionada.</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Imagen De Fondo</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>Nombre De La Carpeta</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Negro</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Marrón</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>Carpeta De Cambio</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>Número De Caracteres</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chino</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>Contacte Con Nosotros</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Fecha De Creación</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Eliminar La Carpeta</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>Su carpeta se eliminarán con todo el contenido. Estás de acuerdo?</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>Suprimir La Nota</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>Realmente quiere eliminar Note?</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Descendiendo</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>Por Favor Escribe El Nombre De La Carpeta</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>Por Favor Escribe El Nombre De La Nota</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Introducir La Contraseña</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>Aplicación De Salida</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>Realmente desea salir de la aplicación?</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>Esta Carpeta Tiene Ya Existe...</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>Nombre De La Carpeta</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>Para Carpeta</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>Configuración De La Carpeta</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Fuente</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Familia Tipográfica</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>Características De La Fuente</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>Puede asignar una familia de fuentes y el tamaño de la fuente en una carpeta de la nota que desea. Cuando se selecciona una carpeta de nota, en la sección de fuente de los Parámetros de la carpeta puede asignar estas propiedades. Usted puede ver la familia de fuentes activas y el tamaño de fuente en la página. Si no se asigna una propiedad, app asignar automáticamente la Verdana y 26 valores de píxeles.</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Tamaño De La Fuente</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>Cuatro Dígitos</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Francés</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>Alemán</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Gris</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>Irlandés</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>Es Audaz</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>Es Cursiva</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>Italiano</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Lenguaje</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>Característica Del Lenguaje</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>La aplicación te da pleno apoyo en Inglés, turco, alemán, italiano, español, francés, portugués, chino, ruso, árabe y persa. Usted puede ver su idioma en el conjunto de las páginas de la aplicación y menús.</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>Usted puede reiniciar la aplicación para afectar los cambios</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="MainPage.AppBarButtonText" xml:space="preserve">
+    <value>Añadir Carpeta</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>última Fecha De Modificación</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>Siguiente Nota</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>Esta Nota Ya Existen</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>Característica Nota</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>En la página de la nota, se puede ver el nombre de la nota, el nombre de la carpeta que tenga en cuenta la nota pertenece, fecha de creación de la nota y, por supuesto nota :). Usted puede navegar a la siguiente y anterior nota en la carpeta de notas. Puede cambiar el nombre de la nota al tocar en el nombre de la nota. Puede seleccionar todo el contexto nota y usted puede ver el detalle de la nota. Usted puede enviar una nota seleccionada a través de SMS o E-Mail. Puede eliminar una nota o cambiar la carpeta de la nota.</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>Característica Carpeta Nota</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>En una carpeta de la nota, se puede ver la lista de notas en la carpeta de la nota. Usted puede navegar a una nota seleccionada. Usted puede eliminar la carpeta nota, pero cuando lo hace, app eliminar la carpeta nota con todas las notas dentro de la carpeta nota seleccionada. Debido a esto, usted debe sincronizar sus notas antes de hacer esta operación. Puede añadir una nueva nota a carpeta o cambia la configuración de la carpeta de la nota. Y usted puede cambiar el nombre de la carpeta de notas cuando se toca el nombre de la carpeta de la nota.</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>Nota Info</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>Lista De Nota</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>Nombre De La Nota</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>Para Nota</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>Nota Guardada</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive Sincronización Completado</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Naranja</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>Características De Orden</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>Usted puede ordenar sus notas en una carpeta nota seleccionada y usted también puede ordenar sus carpetas de notas. Puede ordenar las notas y la nota carpetas por nombre, fecha de creación y última fecha de modificación con orden ascendente o descendente. Usted puede ordenar sus carpetas de notas en la sección Otras opciones de Configuración General. Puede ordenar las notas en una carpeta específica nota de la sección Otras opciones de configuración de las carpetas. Usted puede ver los valores de los ajustes de orden en la página. Si usted no quiere a la orden, la aplicación de la orden de forma automática las notas y carpetas de notas por el nombre con el orden ascendente. (Excepto las notas y carpetas de notas que son creados por la aplicación cuando se inicia la aplicación.)</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>Estilo Para</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>Otros Ajustes</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>Pasiva</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>Contraseña Es Falsa</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>Funciones De Contraseña</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>En una carpeta de nota, podemos asignar una contraseña a la carpeta de la sección Contraseña de configuración de la carpeta. En un mismo lugar, puede eliminar la contraseña de la carpeta de la nota seleccionada. Contraseña tiene que ser por lo menos 4 dígitos. No hay ninguna limitación acerca de la contraseña debe ser numérico. Después de asignar una contraseña, el programa le pedirá la contraseña cuando se quiere acceder a la carpeta de la nota. Usted sólo tiene que pulsar la tecla Intro después de escribir la contraseña para los cuadros de texto. Esta propiedad es la primera en el mercado de Windows Phone. Como ustedes saben, muchas personas no quieren esconder sus listas de compras, pero que quieren ocultar algunas notas de las reuniones especiales. Con esta función se puede asignar una contraseña en qué carpeta quieres.</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>Protección De Contraseña</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>Estado Contraseña</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>Contraseña Es Verdadera</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>Persa</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>Introducir La Contraseña</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>Volver A Introducir La Contraseña</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Portugués</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>Nota Anterior</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>Características Del Programa</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>El programa tiene algunas características como la creación de carpetas nota, asignar una contraseña a la carpeta de nota seleccionada, cambie el color de fondo o la imagen de la aplicación, cambiar el color o la imagen de la carpeta de nota seleccionada, búsqueda contextual, sincronización OneDrive fondo, cambiar la carpeta de la nota de la nota, enviar nota a través de SMS o correo electrónico, fuente detallada y realiza las configuraciones, soporte multi-lenguaje, la información estadística sobre la nota. Cuando se instala la aplicación, app crear una base de datos local en el dispositivo móvil y toda la información de la aplicación se almacena en el dispositivo móvil. Esto es para su seguridad.</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Púrpura</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Rojo</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>Quitar La Imagen De Fondo</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>es</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Ruso</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Búsqueda</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>Búsqueda Completa</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>Funciones De Búsqueda</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>App tiene una característica que usted puede buscar notas en nombre de la nota y el contexto nota. Con esta función no puede perderse en sus notas. Usted acaba de escribir el parámetro de búsqueda y pulse la tecla Enter. Resultados de la búsqueda se mostrarán en la misma página. Hay un punto clave que, si se intenta acceder a una nota que se encuentra en una carpeta de la nota que está protegido con contraseña, se le dirigías introduzca la contraseña para acceder al archivo de notas. Esta característica es para usted y su privacidad.</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Resultados De La Búsqueda</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>Usted Tiene Que Ilenar Los Criterios De Búsqueda</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Seleccione</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Seleccionar Todo</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Seleccionado</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>Seleccione Familia De Fuentes</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>Seleccione El Tamaño De La Fuente</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Seleccionar El Idioma</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>Seleccione La Carpeta Nota</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>Seleccione El Estilo Para</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>Seleccione El Tipo De Orden</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>Seleccione Estado Contraseña</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>Enviar Con Awesome Note App</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>Enviar Con Correo</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>Enviar Con SMS</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Contraseña Establecida</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Conectar</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>Nota se ha agregado</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>Carpeta Nota se ha agregado</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>color de fondo se ha cambiado con éxito</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>imagen de fondo se ha cambiado con éxito</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>imagen de fondo se ha eliminado con éxito</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>nombre de la carpeta se ha modificado correctamente</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>la carpeta de su nota se ha cambiado con éxito</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>nombre de la nota se ha cambiado con éxito</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>carpeta de la nota se ha eliminado con éxito</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>nota se ha eliminado con éxito</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>familia de fuentes se ha cambiado con éxito</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>tamaño de la letra se ha cambiado con éxito</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>estilo de orden se ha cambiado con éxito</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>tipo de orden se ha cambiado con éxito</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>contraseña se ha eliminado con éxito</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>su nota ha sido enviada correctamente por e-mail</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>su nota ha sido enviada correctamente por sms</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>contraseña se ha establecido correctamente</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Sincronizar</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>Funciónes De Sincronización</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>Con esta aplicación se puede sincronizar todas sus notas con su cuenta OneDrive. En la sección de sincronización del programa de Configuración general, usted debe hacer clic en el botón Iniciar sesión y usted debe entrar en su cuenta de SkyDrive. Si bien este proceso, usted debe aceptar el permiso de acceso de aplicaciones para completar la sincronización. Después de proceso de inicio de sesión completado, debe hacer clic en el botón Sincronizar y aplicación creará una carpeta (por ejemplo: Nota Impresionante (21/07/2014 02.08.57)) y sincronizar tus notas en esta carpeta. Usted puede seguir el proceso de sincronización de la página actual de aplicación. Las notas se sincronizan como un archivo de texto y dentro de este archivo de texto que puede acceder a información detallada acerca de la nota. Sincronizado formato de nombre de archivo es "Nota Id. + Nota Nombre + (Nota Nombre de carpeta) txt". (por ejemplo "1. Mi Nota (Mi carpeta) txt") .ã punto especial es, en este programa, no podemos tener ninguna información sobre usted desea su contraseña carpeta nota. Si has olvidado tu contraseña, puede acceder con éxito a sus notas protegidas simplemente usando Sincronizar sus notas en OneDrive.</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>Sincronización...</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>Sistema Tiene Un Fallo. Por Favor Intente Más Tarde ...</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Consejos De Aplicación</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Turco</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>Los Dos Valores De Contraseña No Se Misma</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Bienvenido</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>Hi. Me gusta tomar notas y yo uso un montón de toma de notas programa en PC y dispositivos móviles. Quiero crear una buena nota teniendo aplicación para usted. Espero que usted estará satisfecho de la aplicación.</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>Número De Palabras</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Amarillo</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Tasa</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Cuota</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>Sincroniza All In One Archivo</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Restablecer Configuración</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>Configuración de fondo se ha restablecido con éxito</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>Sánscrito</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>Tailandés</value>
+  </data>
+</root>

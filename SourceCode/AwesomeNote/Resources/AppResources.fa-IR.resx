@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>در مورد</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>در مورد برنامه</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>من امیدوارم که شما ممکن است در حالی که با استفاده از این برنامه لذت ببرید. من خیلی از آن لذت ببرید در حالی که من در حال توسعه نرم افزار. من شما می خواهید چیزی از برنامه، شما می توانید به من ایمیل به coderserdar@outlook.com و یا استفاده دکمه تماس در این صفحه ارسال کنید. اگر شما برنامه را ارزیابی من تا به شما قدردانی می شود. آیا یک روز خوب. سیستم مدیریت محتوا نرم افزار</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>درباره برنامه عالی توجه داشته باشید</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>اضافه کردن پوشه</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>اضافه کردن آیتم</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>اضافه کردن توجه داشته باشید</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>پوشه ها</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>عربی</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>صعودی</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>حداقل چهار رقم</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>پس زمینه</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>رنگ پس زمینه</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>از ویژگی های پس زمینه</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>من اهمیت پرداخت به قابلیت از یک برنامه فوق بصری از یک برنامه در زندگی من است. و من ایجاد این برنامه را با این احساسات. اما من می دانم که همه مثل من فکر نمی کنم، من توسعه پس زمینه از این برنامه متغیر است. در زبانه سابقه و هدف برنامه در تنظیمات، شما می توانید رنگ پس زمینه یا تصویر به برنامه اختصاص دهید. رنگ پس زمینه موجود در کل برنامه است، اما اگر شما می خواهید شما می توانید یک تصویر پس زمینه به به پوشه انتخاب شده توجه داشته باشید در بخش مقدمه از تنظیمات پوشه اختصاص دهید. هنگامی که شما خسته، شما می توانید تصویر پس زمینه از برنامه یا پوشه انتخاب شده توجه داشته باشید حذف شده است.</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>تصویر پس زمینه</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>نام پوشه</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>سیاه و سفید</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>آبی</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>قهوهای</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>پوشه تغییر</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>تعداد حروف</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>چینی</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>تماس با ما</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>تاریخ ایجاد</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>حذف پوشه</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>پوشه شما با همه مطالب حذف شده. آیا شما موافق</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>حذف یادداشت</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>آیا شما واقعا می خواهید به حذف توجه</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>نزولی</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>انگلیسی</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>لطفا نام پوشه را وارد کنید</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>لطفا نام را وارد کنید توجه داشته باشید</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>وارد کنید رمز عبور</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>برنامه خروج</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>آیا شما واقعا می خواهید برای خروج از برنامه</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>این پوشه از قبل وجود دارد</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>نام پوشه</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>منظور پوشه</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>تنظیمات پوشه</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>فونت</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>خانواده فونت</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>از ویژگی های فونت</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>شما می توانید یک خانواده فونت و اندازه فونت را به یک پوشه توجه داشته باشید که شما می خواهید اختصاص دهید. هنگامی که شما یک پوشه را انتخاب کنید توجه داشته باشید، در بخش فونت از تنظیمات پوشه شما می توانید از این خواص را اختصاص دهید. شما می توانید از خانواده فونت فعال و اندازه فونت را در صفحه مشاهده کنید. اگر شما یک ملک را واگذار کند، برنامه به طور خودکار Verdana و 26 مقادیر پیکسل اختصاص دهید</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>اندازه فونت</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>چهار رقم</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>فرانسوی</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>آلمانی</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>خاکستری</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>سبز</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>ایرلندی</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>دشوار است</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>شیب است</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>ایتالیایی</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>از ویژگی های زبان</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>نرم افزار به شما می دهد پشتیبانی کامل از زبان های انگلیسی، ترکی، آلمانی، ایتالیایی، اسپانیایی، فرانسوی، پرتغالی، چینی، روسی، عربی و فارسی. شما می توانید زبان خود را در تمام صفحات از برنامه ها و منوها را ببینید.</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>شما ممکن است برنامه راه اندازی مجدد را تحت تاثیر قرار تغییرات</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ورود به سیستم</value>
+  </data>
+  <data name="MainPage.AppBarButtonText" xml:space="preserve">
+    <value>اضافه کردن پوشه</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>تاریخ آخرین اصلاح</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>بعدی</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>توجه داشته باشید بعدی</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>هیچ</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>توجه داشته باشید</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>این نکته از قبل وجود دارد</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>ویژگی توجه داشته باشید</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>در صفحه توجه داشته باشید، شما می توانید به نام توجه داشته باشید نام پوشه توجه داشته باشید که توجه داشته باشید تعلق دارد، تاریخ ایجاد توجه داشته باشید و از :) البته توجه داشته باشید را مشاهده کنید. شما می توانید به توجه داشته باشید قبل و بعد در پوشه توجه داشته باشید حرکت. شما می توانید به نام توجه داشته باشید زمانی که نام توجه داشته باشید که شما شیر را تغییر دهید. شما می توانید تمام زمینه توجه داشته باشید را انتخاب کنید و شما می توانید جزئیات توجه داشته باشید را مشاهده کنید. شما می توانید یک یادداشت انتخاب شده از طریق SMS و یا ایمیل ارسال کنید. شما می توانید توجه داشته باشید حذف و یا پوشه توجه داشته باشید توجه داشته باشید تغییر دهید.</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>توجه داشته باشید از ویژگی های پوشه</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>در یک پوشه داشته باشید، شما می توانید لیستی از یادداشت ها در پوشه توجه داشته باشید را مشاهده کنید. شما می توانید به توجه داشته باشید انتخاب شده. شما می توانید پوشه توجه داشته باشید حذف، اما زمانی که شما این کار، برنامه حذف پوشه توجه داشته باشید با تمام یادداشت ها در داخل پوشه توجه داشته باشید انتخاب شده است. به این دلیل شما باید یادداشت های خود را قبل از انجام این عملیات همگام سازی. شما می توانید یک یادداشت جدید به پوشه و یا تغییر تنظیمات پوشه توجه داشته باشید اضافه کنید. و شما می توانید نام پوشه توجه داشته باشید که نام پوشه توجه داشته باشید که شما شیر را تغییر دهید.</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>توجه داشته باشید اطلاعات</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>لیست توجه داشته باشید</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>نام توجه داشته باشید</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>منظور توجه داشته باشید</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>توجه داشته باشید نجات داد</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>خوب</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive همگام سازی های انجام شده</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>نارنجی</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>ویژگی منظور</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>شما می توانید یادداشت های خود را در یک پوشه انتخاب شده توجه داشته باشید سفارش داده و شما همچنین می توانید پوشه های خود را توجه داشته باشید سفارش دهید. شما می توانید یادداشت ها سفارش و توجه داشته باشید پوشه ها بر اساس نام، تاریخ ایجاد و تاریخ آخرین اصلاح با صعودی یا نزولی. شما می توانید پوشه ها توجه داشته باشید خود را در بخش سایر تنظیمات از تنظیمات عمومی سفارش دهید. شما می توانید یادداشت ها را در یک پوشه خاص توجه داشته باشید در بخش سایر تنظیمات از تنظیمات پوشه سفارش دهید. شما می توانید مقادیر تنظیمات منظور در صفحه مشاهده کنید. اگر شما نمی خواهید به سفارش، برنامه به طور خودکار سفارش یادداشت ها و پوشه ها توجه داشته باشید نام با صعودی. (به جز یادداشت ها و پوشه ها توجه داشته باشید که توسط برنامه ایجاد شده زمانی که برنامه شروع می شود.)</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>سبک منظور</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>تنظیمات دیگر</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>غیر فعال</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>رمز عبور نادرست است</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>ویژگی رمز عبور</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>در یک پوشه داشته باشید، ما می توانیم یک رمز عبور برای پوشه از بخش رمز عبور در تنظیمات پوشه اختصاص دهید. در همان مکان، شما می توانید رمز عبور پوشه توجه داشته باشید انتخاب حذف شده است. رمز عبور باید حداقل چهار رقم. هیچ محدودیتی در مورد رمز عبور باید عدد باشد وجود دارد. بعد از اینکه رمز عبور، برنامه را به شما رمز عبور بخواهید که شما می خواهید برای دسترسی به پوشه توجه داشته باشید. شما فقط می توانید کلید را وارد کنید بعد از تایپ کردن رمز عبور در جعبه های متنی. این ویژگی برای اولین بار در بازار تلفن ویندوز. همانطور که می دانید، بسیاری از مردم نمی خواهند برای مخفی کردن لیست خرید خود را اما آنها می خواهند برای پنهان کردن بعضی از یادداشت های جلسه ویژه. با این ویژگی شما می توانید رمز عبور که پوشه می خواهید اختصاص دهید.</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>حفاظت از رمز عبور</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>دولت رمز عبور</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>رمز عبور درست است</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>فارسی</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>وارد کنید رمز عبور</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>ورود مجدد رمز عبور</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>پرتغالی</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>قبلی</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>توجه داشته باشید قبل</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>ویژگی های برنامه</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>برنامه دارای برخی از ویژگی های مانند ایجاد پوشه توجه داشته باشید، اختصاص دادن رمز عبور برای پوشه توجه داشته باشید انتخاب شده، تغییر رنگ پس زمینه یا تصویر از نرم افزار، تغییر رنگ پس زمینه یا تصویر از پوشه توجه داشته باشید انتخاب شده، جستجو متن، همزمان سازی OneDrive، پوشه توجه داشته باشید توجه داشته باشید تغییر، ارسال یادداشت از طریق SMS و یا ایمیل، فونت دقیق و تنظیمات سفارش، پشتیبانی از زبان چند، اطلاعات آماری در مورد توجه داشته باشید. هنگامی که برنامه نصب شده است، برنامه ایجاد یک پایگاه داده محلی در دستگاه تلفن همراه خود و تمام اطلاعات از برنامه خواهد شد در دستگاه تلفن همراه خود ذخیره می شود. این است که برای امنیت خود.</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>بنفش</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>قرمز</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>حذف تصویر پس زمینه</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>fa</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>روسی</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>جستجو کامل</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>از ویژگی های جستجو</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>برنامه دارای یک ویژگی است که شما می توانید یادداشت در نام و زمینه توجه داشته باشید توجه داشته باشید را جستجو کنید. با این ویژگی شما می توانید در یادداشت های خود را از دست داد. شما فقط ارسال پارامتر جستجو و فشار کلید را وارد کنید. نتایج جستجو در همان صفحه نشان داده شده است. یک نکته کلیدی است که، اگر شما سعی می کنید برای دسترسی به توجه داشته باشید که در یک پوشه توجه داشته باشید که رمز عبور محافظت می شود، به شما خواهد شد پیمایش را وارد کنید رمز عبور برای دسترسی به فایل توجه داشته باشید وجود دارد. این قابلیت برای شما و حریم خصوصی شما.</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>نتایج جستجو</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>شما باید برای پر کردن معیارهای جستجو</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>را انتخاب کنید</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>انتخاب همه</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>انتخاب</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>خانواده فونت را انتخاب کنید</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>انتخاب اندازه فونت</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>زبان را انتخاب کنید</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>پوشه را انتخاب کنید توجه داشته باشید</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>سبک منظور انتخاب</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>نوع سفارش انتخاب کنید</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>دولت رمز عبور را انتخاب کنید</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>ارسال با عالی توجه داشته باشید برنامه</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>ارسال با پست الکترونیکی</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>ارسال با اس ام اس</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>رمز عبور مجموعه</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>به سیستم وارد شوید</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>خروج از سیستم</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>اسپانیایی</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>توجه داشته باشید موفقیت انجام شد.</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>پوشه توجه داشته باشید موفقیت انجام شد.</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>رنگ پس زمینه موفقیت تغییر داده شد</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>تصویر پس زمینه با موفقیت تغییر داده</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>تصویر پس زمینه با موفقیت حذف شده است</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>نام پوشه را با موفقیت تغییر داده شده است</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>پوشه توجه داشته باشید شما با موفقیت تغییر داده</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>نام توجه داشته باشید تا به موفقیت تغییر داده شد</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>پوشه توجه داشته باشید با موفقیت حذف شده است</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>توجه داشته باشید با موفقیت حذف شده است</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>خانواده فونت موفقیت تغییر داده شد</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>اندازه فونت را با موفقیت تغییر داده شده است</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>سبک منظور موفقیت تغییر داده شد</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>نوع جهت موفقیت تغییر داده شد</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>رمز عبور با موفقیت حذف شده است</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>توجه داشته باشید تا به موفقیت از طریق ایمیل ارسال شده است</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>توجه داشته باشید تا به موفقیت های اس ام اس ارسال شده است</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>رمز عبور را با موفقیت راه اندازی شده است</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>همگام</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>ویژگی همگام سازی</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>با استفاده از این برنامه شما می توانید تمام یادداشت های خود را با حساب OneDrive خود را همگام سازی کنید. در بخش برنامه همگام سازی از تنظیمات، شما باید ورود به سیستم را فشار دهید و شما باید حساب SkyDrive بلای خود را وارد کنید. در حالی که این روند، شما باید نرم افزار اجازه دسترسی به تکمیل syncronization شرایط. به این پوشه و همگام سازی یادداشت های خود را: پس از روند ورود به پایان، شما باید بر روی دکمه همگام سازی کلیک کنید و برنامه را در یک پوشه ایجاد (عالی توجه داشته باشید (2014/07/21 02.08.57) به عنوان مثال). شما می توانید روند همگام از صفحه جاری برنامه را دنبال کنید. یادداشت ها به عنوان یک فایل متنی همگام سازی شده و در داخل این فایل متنی که شما می توانید برخی از اطلاعات دقیق در مورد توجه داشته باشید را مشاهده کنید. همگام سازی با فرمت نام فایل "توجه داشته باشید آیدی. + توجه داشته باشید نام (توجه داشته باشید نام پوشه) کلیپ برد چند منظوره +". (به عنوان مثال "1. توجه داشته باشید من (پوشه من) کلیپ برد چند منظوره") علیرضا نقطه خاص است، در این برنامه ما می توانیم هر گونه اطلاعات ندارد در مورد شما می خواهم رمز عبور پوشه خود را توجه داشته باشید. اگر رمز عبور خود را فراموش کرده اید، شما می توانید با موفقیت یادداشت های محافظت شده خود را فقط با استفاده از همگام سازی یادداشت های خود را در OneDrive دسترسی داشته باشید.</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>هماهنگ</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>سیستم ها دارای گسل. لطفا دوباره تلاش کنید ...</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>راهنمایی از برنامه</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>ترکی استانبولی</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>دو مقدار رمز عبور آیا هنوز هم</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>خوش آمد</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>سلام. من دوست دارم یادداشت برداری و من استفاده از بسیاری از توجه داشته باشید در نظر گرفتن برنامه در PC و دستگاه های تلفن همراه. من می خواهم برای ایجاد یک یادداشت خوب گرفتن نرم افزار برای شما. من امیدوارم که شما این برنامه راضی است.</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>تعداد کلمات</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>زرد</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>نرخ</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>سهم</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>همگام سازی همه در یک فایل</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>تنظیمات بازنشانی</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>تنظیمات پس زمینه شده است تنظیم مجدد موفقیت</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>سانسکریت</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>تایلندی</value>
+  </data>
+</root>

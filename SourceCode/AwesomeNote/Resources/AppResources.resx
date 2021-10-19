@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>tr-TR</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MY APPLICATION</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Klasör Ekle</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>Nesne Ekle</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>Not Klasörleri</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>Klasör Değiştir</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>Lütfen Not Klasörünün Adını Yazınız</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>Uygulamadan Çık</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>Uygulamadan Çıkmak İstediğinizden Emin Misiniz?</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>Bu İsimde Bir Klasör Zaten Mevcut</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>Not Listesi</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>Lütfen Not Klasörünü Seçiniz</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>Not Klasörü Başarılı Bir Şekilde Oluşturuldu</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>Notunuzun Ait Olduğu Klasör Değiştirildi</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>Not Ekle</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>İngilizce</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>Lütfen Notun Adını Giriniz</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>Klasör Ayarları</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Genel Ayarlar</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>Almanca</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>Ayarların etkili olması için uygulamayı baştan başlatmanız gerekebilir...</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>Bu İsimde Bir Not Zaten Mevcut</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Lütfen Dili Seçiniz</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>İspanyolca</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>Not Başarılı Bir Şekilde Oluşturuldu</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Eşzamanlama</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Yazı Tipi</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>Dört Karakter</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>Diğer Ayarlar</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>Pasif</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>Şifre Yanlış</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>Şifre Durumu</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>Şifre Doğru</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>Şifreyi Giriniz</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>Şifreyi Tekrar Giriniz</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>Şifre Durumunu Seçiniz</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>Şifre Başarılı Bir Şekilde Kaldırıldı</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>Şifre Başarılı Bir Şekilde Oluşturuldu</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>Girilen İki Şifre Alanı Aynı Değil</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Yazı Tipi Ailesi</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Yazı Tipi Boyutu</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>Yazı Tipi Kalın Olsun</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>Yazı Tipi İtalik Olsun</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>Not Kaydedildi</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>Yazı Tipi Ailesi Seçiniz</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>Yazı Tipi Boyu Seçiniz</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>Yazı Tipi Ailesi Başarılı Bir Şekilde Değiştirildi</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>Yazı Tipi Boyutu Başarılı Bir Şekilde Değiştirildi</value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>Notun İsmi Başarılı Bir Şekilde Değiştirildi</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Oluşturulma Tarihi</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>Değiştirilme Tarihi</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>Not Adı</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>Not Sıralama</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>Sıralama Ölçütünü Seçiniz</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>Sıralama Kriteri Başarılı Bir Şekilde Değiştirildi</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Artan Sırada</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Azalan Sırada</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>Sıralama Türü</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>Sıralama Türü Seçiniz</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>Sıralama Türü Başarılı Bir Şekilde Değiştirildi</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>Klasör Sıralama</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>Ait Olduğu Klasörün Adı</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>Karakter Sayısı</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>Not Hakkında</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>Awesome Note Uygulaması ile Gönderildi</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>E-Posta İle Gönder</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>SMS İle Gönder</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>Not Klasör İsmi Başarılı Bir Şekilde Değiştirildi</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>E-Posta Yoluyla Not Başarılı Bir Şekilde Gönderildi</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>SMS Yoluyla Not Başarılı Bir Şekilde Gönderildi</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>Kelime Sayısı</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>Notu Sil</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>Notu Silmek İstediğinizden Emin Misiniz?</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>Sonraki Not</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>Önceki Not</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>Not Başarılı Bir Şekilde Silindi</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Seçiniz</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Seçilen</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>Klasör Adı</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>Uygulama Hakkında</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>Umarım programı kullanırken keyif almışsınızdır. Çünkü ben yazarken baya keyif aldım. Program hakkında taleplerinizi, bu sayfadaki İletişim butonuna tıklayarak veya direkt olarak coderserdar@outlook.com adresine mail atarak belirtirseniz ve uygulamayı oylarsanız çok sevinirim. Sizin sayenizde bu program daha çok gelişecek. İyi günler</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>Awesome Note Uygulaması Hakkında</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>İletişime Geç</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>Arama Tamamlandı</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Arama Sonuçları</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>Arama Alanını Doldurmak Zorundasınız.</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Klasör Sil</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>Not Klasörünüz Tüm İçeriği İle Silinecek. Onaylıyor Musunuz?</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>Not Klasörü Başarıyla Silindi</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Şifre Ayarla</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>En Az Dört Karakter</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Şifre Girme</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Arka Plan</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Arka Plan Rengi</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Arka Plan Resmi</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Siyah</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Mavi</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Kahverengi</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Gri</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Yeşil</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Turuncu</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Mor</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Kırmızı</value>
+  </data>
+  <data name="SelectBackgroundColor" xml:space="preserve">
+    <value>Arka Plan Rengi Seçiniz</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>Arka Plan Rengi Başarıyla Değiştirildi</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Sarı</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Bağlan</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>One Drive</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Bağlan</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Çıkış Yap</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive Senkronizasyonu Tamamlandı</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>Şifre Koruması</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Tümünü Seç</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>Eşzamanlanıyor...</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>Arka Plan Resmini Kaldır</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>Arka Plan Resmi Başarılı Bir Şekilde Değiştirildi</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>Arka Plan Resmi Başarılı Bir Şekilde Kaldırıldı</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>Arka Plan Özellikleri</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>Normalde kullandığım uygulamalarda görsellikten çok işlevselliğe önem veririm. Yazarken de aynı şekilde yazdım bu programı ancak herkesin benim düşündüğüm gibi düşünmediğini de bildiğim için görselliği sade olan bu programda arka plan rengini ayarlanabilir bir şekilde yaptım. Programın Genel Ayarları kısmında Arka Plan bölümünde istenirse sadece renk seçimi yaparak, istenirse de mobil cihaz içerisindeki her hangi bir fotoğrafı arka plan olarak belirleyebilmek mümkündür. Arka plan rengi uygulamanın tamamı için geçerli olup, arka plan resminde uygulamanın girişi için ayrı, not klasörleri için ayrı tanımlama yapabilirsiniz. Her bir not klasörüne Klasör Ayarları bölümündeki Arka Plan kısmında farklı bir fotoğraf atayarak programı istediğiniz görsellikte kullanabilirsiniz. Ayrıca eğer fotoğraflardan sıkılırsanız uygulamanın veya seçtiğiniz not klasörünün arka plan fotoğrafını yine aynı ayarlar ekranından kaldırabilirsiniz.</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>Font Özellikleri</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>Program üzerinde notlar ile ilgili olarak, her klasör için bir font ailesi ve font boyutu ayarlaması yapabilirsiniz. Bunu seçtiğiniz not klasörü içerisinde Klasör Ayarları butonuna bastıktan sonra çıkan ekranda Font bölümüne gelerek yapabilirsiniz. Ekranda o an aktif olarak seçtiğiniz font ailesi ve font boyutu görünecektir. Eğer siz seçmezseniz program font ayarını otomatik olaraak Verdana ve 26 punto olarak ayarlayacaktır.</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>Dil Özellikleri</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>Program İngilizce, Türkçe, Almanca, İspanyolca, İtalyanca, Fransızca, Portekizce, Çince, Rusça, Arapça, Farsça gibi dillere tamamen destek vermektedir. Yani uygulamada dil gerekebilecek bütün menülerde ve sayfalarda kendi dilinizi görebileceksiniz.</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>Not Özellikleri</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>Not içerisinde notun adı, içinde bulunduğu klasörün adı, notun oluşturulma tarihi ve notun kendisi bulunmaktadır. Not içerisinde klasördeki bir önceki nota ve bir sonraki nota gidebilmek mümkündür. Notun adına tıklandığı zaman notun adını değiştirme mümkündür. Not metninin tamamını seçebilmek, not hakkında detaylı bilgileri görüntülemek mümkündür. Seçilen bir notu SMS veya E-Posta yoluyla gönderebilmek de mümkündür. Notu silmek veya ait olduğu klasörü değiştirebilmek de mümkündür.</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>Not Klasörü Özellikleri</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>Not klasörü içerisinde, içindeki notların listesi bulunmaktadır. Buradan klasör içerisindeki her hangi bir nota gidebilmek mümkündür. Not klasörünü silebilmek mümkündür, ancak bu işlemi gerçekleştirdiğiniz zaman not klasörünü içerisindeki bütün notlarla birlikte silecektir. Bu yüzden klasör silmeden önce Senkronizasyon yaparak notlarınızı yedeklemeniz önemle tavsiye edilir. Klasöre yeni bir not ekleyebilir veya ayarlarını değiştirebilirsiniz. Ayrıca klasör adına tıkladığınız zaman klasörün adını değiştirebilirsiniz.</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>Sıralama Özellikleri</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>Program üzerinde hem not klasörlerini hem de klasör içerisindeki notları sıralamak mümkündür. Notları ve not klasörlerini; adına, oluşturulma tarihine göre ve en son değiştirilme tarihine göre artan ve azalan şekilde sıralamak mümkündür. Not klasörlerinin sıralama ayarlarını değiştirmek için Genel Ayarlar kısmında Diğer Ayarlar bölümüne, klasör içerisindeki notların sıralama ayarlarını değiştirmek için ise Klasör Ayarları kısmındaki Diğer Ayarlar bölümüne girmek gerekmektedir. Ekranda hali hazırda seçilen ayarlar görünmektedir. Eğer siz bir ayarlama yapmazsanız otomatik olarak (Programın ilk açılışta kendi oluşturduğu not klasörleri ve notlar hariç) ada göre ve artan şekilde sıralama yapacaktır.</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>Şifre Özelliği</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>Seçilen her hangi bir not klasöründe Klasör Ayarları bölümünde Şifre kısmında o not klasörüne şifre ataması yapabilmek mümkündür. Aynı bölümden mevcut şifre de kaldırılabilir. Girilen şifre de en az 4 karakterli olmalıdır. Sadece rakam olmalı gibi bir kısıtlama söz konusu değildir. Şifre ataması yapıldıktan sonra klasöre her girişte mevcut şifreyi soracaktır. Şifre girilirken kutucuklara şifre girildikten sonra Enter tuşuna basılması yeterlidir. Bu özellik Windows Phone marketinde ilk kez bu uygulamada bulunmaktadır. Bildiğiniz gibi insanlar alışveriş listelerini şifrelemezler ancak bazı toplantı notlarının gizli kalmasını isteyebilirler. Bu gibi durumlarda istenilen klasöre şifre koyabilmek gerçekten önemli bir özelliktir.</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>Programın Özellikleri</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>Bu program ile not klasörü oluşturma, klasöre şifre atama, uygulamanın arka plan rengini değiştirme veya arka plana telefon üzerindeki fotoğraflardan birini yerleştirebilme, not klasörünün arka plan fotoğrafını değiştirebilme, içerik sorgulaması yapabilme, OneDrive senkronizasyonu, herhangi bir notun ait olduğu klasörü kolaylıkla değiştirme, tutulan notları SMS veya E-Posta yoluyla gönderme, detaylı font ve sıralama ayarları, çoklu dil desteği, not hakkında istatistiki bilgi gibi pek çok özellik bulunmaktadır. Program yüklendiği zaman telefonunuz içerisinde lokal bir veri tabanı oluşturmakta ve uygulamanın bütün verileri sizin mobil cihazınızda tutulmaktadır. Bu sizin bilgilerinizin güvenliği için bizim almış olduğumuz bir tedbirdir.</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>Arama Özellikleri</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>Programda notun adı ve notun içeriği üzerinden sorgulama yapmaya imkan sağlayan bir özellik bulunmaktadır. Bu özellik sayesinde notlarınızın içinde kaybolmaktan kurtulmuş olursunuz. Sorgulama için arama yapacağınız metni yazdıktan sonra Enter tuşuna basmanız yeterli olacaktır. Sorgu sonuçları yine aynı sayfada yer alacaktır. Burada önemli bir nokta ise, eğer sorgu sonuçları içerisinde daha önceden şifrelediğiniz bir not klasörü içerisindeki nota erişmeye kalkarsanız sorgulama ekranından şifre giriş ekranına yönlendirileceksiniz. bu notlarınızın ve sizin güvenliğiniz için alınmış bir önlemdir.</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>Senkronizasyon Özellikleri</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>Program vasıtasıyla tüm notlarınızı OneDrive hesabınız ile senkronize edebilirsiniz. Uygulama içerisinde Genel Ayarlar kısmında Senkronizasyon bölümüne girdikten sonra Sign In yazan butona tıklayıp, OneDrive hesabınıza giriş yapmanız gerekmektedir. Giriş esnasında sorduğu erişim iznini onaylamadığınız zaman senkronizasyon işlemini gerçekleştirmeyecektir. Sonrasında ise Senkronizasyon için gerekli butona bastığınız zaman program OneDrive hesabınız içerisinde bir klasör oluşturacak (örneğin: Awesome Note (21.7.2014 02.08.57) gibi) ve notlarınızı bu klasör içerisine aktaracaktır. Aktarımın ne aşamada olduğunu ekran üzerinden takip edebilirsiniz. Notları metin belgesi olarak aktarmakta ve içerisinde not dışında bazı detay bilgileri daha göstermektedir. Aktarılan notların isim formatı "Not numarası. + Not adı + (Notun Ait Olduğu Klasör Adı).txt" şeklindedir. (Örneğin "1. Deneme (Not Klasörüm).txt") Önemli bir nokta da, bu program içerisinde size ait hiç bir şey tarafımızda tutulmadığından ve buna not klasörlerinizin şifresi de dahil olduğundan, şifrenizi unuttuğunuz zaman notlarınıza erişimin tek yolu, bütün notlarınızı OneDrive ile senkronize etmektir.</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Programın İpuçları</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Hoşgeldiniz</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>Merhaba. Not almayı seven bir kullanıcı olarak Bilgisayar ve Mobil cihazlarda pek çok not tutma programı kullandım. Ve faydalı olacağını düşündüğüm özellikleri birleştirip bu uygulamayı yazdım. Umarım uygulamadan memnun kalırsınız.</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>Sistemde Bir Hata Oluştu. Uygulama Sonlanacak...</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>Irish</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>Persian</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Değerlendir</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Paylaş</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>Hepsini Tek Dosyada Birleştir</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Ayarları Sıfırla</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>Arka Plan Ayarları Başarıyla Sıfırlandı</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>Sanskritçe</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>Tay Dili</value>
+  </data>
+</root>

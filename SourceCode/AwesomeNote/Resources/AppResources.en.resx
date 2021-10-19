@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>About The App</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>I hope that you may enjoy while using the app. I have much of fun while i was developing the app. I you want something from the app, you can send me a mail to coderserdar@outlook.com or use Contact button in this page. If you rate the app i will so appreciated to you. Have a good day. ÇMS Software</value>
+  </data>
+  <data name="AboutTheAwesomeNote" xml:space="preserve">
+    <value>About The Awesome Note App</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Add Folder</value>
+  </data>
+  <data name="AddItem" xml:space="preserve">
+    <value>Add Item</value>
+  </data>
+  <data name="AddNote" xml:space="preserve">
+    <value>Add Note</value>
+  </data>
+  <data name="AppFolder" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Awesome Note</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="AtLeastFourDigits" xml:space="preserve">
+    <value>At Least Four Digits</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="BackgroundFeature" xml:space="preserve">
+    <value>Background Feature</value>
+  </data>
+  <data name="BackgroundFeatureNote" xml:space="preserve">
+    <value>I pay importance on the functionality of a program above the visuality of a program in my life. And i create this program with these feelings. But i know that everybody does not think like me so, i develop the background of this app changeable. In program's Background tab in General Settings, you can assign a background color or image to app. Background color is available on the whole app, but if you want you can assign a background image to to selected note folder in Background section of Folder Settings. When you get bored, you can remove the background image of the app or selected note folder.</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Background Image</value>
+  </data>
+  <data name="BelongFolderName" xml:space="preserve">
+    <value>Folder Name</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Brown</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ChangeFolder" xml:space="preserve">
+    <value>Change Folder</value>
+  </data>
+  <data name="CharacterNumber" xml:space="preserve">
+    <value>Number Of Characters</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>Contact With Us</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Delete Folder</value>
+  </data>
+  <data name="DeleteFolderQuestion" xml:space="preserve">
+    <value>Your Folder Will Be Deleted With All Contents. Do You Agree?</value>
+  </data>
+  <data name="DeleteNote" xml:space="preserve">
+    <value>Delete Note</value>
+  </data>
+  <data name="DeleteNoteQuestion" xml:space="preserve">
+    <value>Do You Really Want To Delete Note?</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="EnterFolderName" xml:space="preserve">
+    <value>Please Enter The Folder Name</value>
+  </data>
+  <data name="EnterNoteName" xml:space="preserve">
+    <value>Please Enter The Note Name</value>
+  </data>
+  <data name="EnterPassword" xml:space="preserve">
+    <value>Enter Password</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>Exit App</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>Do you really want to exit the app?</value>
+  </data>
+  <data name="FolderExists" xml:space="preserve">
+    <value>This folder has already exists..</value>
+  </data>
+  <data name="FolderName" xml:space="preserve">
+    <value>Folder Name</value>
+  </data>
+  <data name="FolderOrder" xml:space="preserve">
+    <value>Folder Order</value>
+  </data>
+  <data name="FolderSettings" xml:space="preserve">
+    <value>Folder Settings</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+  <data name="FontFeature" xml:space="preserve">
+    <value>Font Feature</value>
+  </data>
+  <data name="FontFeatureNote" xml:space="preserve">
+    <value>You can assign a font family and font size to a note folder which you want. When you select a note folder, in Font section of the Folder Settings you can assign these properties. You can see the active font family and the font size on page. If you don't assign a property, app automatically assign the Verdana and 26 px values.</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="FourDigits" xml:space="preserve">
+    <value>Four Digits</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="IsBold" xml:space="preserve">
+    <value>Is Bold</value>
+  </data>
+  <data name="IsItalic" xml:space="preserve">
+    <value>Is Italic</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LanguageFeature" xml:space="preserve">
+    <value>Language Feature</value>
+  </data>
+  <data name="LanguageFeatureNote" xml:space="preserve">
+    <value>The app gives you full support in English, Turkish, German, Italian, Spanish, French, Portuguese, Chinese, Russian, Arabic and Persian. You can see your language in whole of the pages of the app and menus.</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>You may restart the app to affect the changes</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="MainPage.AppBarButtonText" xml:space="preserve">
+    <value>Add Folder</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>Last Modification Date</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NextNote" xml:space="preserve">
+    <value>Next Note</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="NoteExists" xml:space="preserve">
+    <value>This Note Already Exists</value>
+  </data>
+  <data name="NoteFeature" xml:space="preserve">
+    <value>Note Feature</value>
+  </data>
+  <data name="NoteFeatureNote" xml:space="preserve">
+    <value>In the note page, you can see the name of note, the name of the note folder which note belongs, creation date of note and of course note :). You can navigate to next and previous note in the note folder. You can change the name of the note when you tap the note name. You can select all of the note context and you can see the note detail. You can send a selected note via SMS or E-Mail. You can delete note or change the note folder of the note.</value>
+  </data>
+  <data name="NoteFolderFeature" xml:space="preserve">
+    <value>Note Folder Feature</value>
+  </data>
+  <data name="NoteFolderFeatureNote" xml:space="preserve">
+    <value>In a note folder, you can see the list of notes in the note folder. You can navigate to a selected note. You can delete the note folder, but when you do this, app delete the note folder with all of the notes inside the selected note folder. Because of this you should Sync your notes before doing this operation. You can add a new note to folder or change the settings of the note folder. And you can change the name of the note folder when you tap the name of the note folder.</value>
+  </data>
+  <data name="NoteInfo" xml:space="preserve">
+    <value>Note Info</value>
+  </data>
+  <data name="NoteListOf" xml:space="preserve">
+    <value>Note List Of</value>
+  </data>
+  <data name="NoteName" xml:space="preserve">
+    <value>Note Name</value>
+  </data>
+  <data name="NoteOrder" xml:space="preserve">
+    <value>Note Order</value>
+  </data>
+  <data name="NoteSaved" xml:space="preserve">
+    <value>Note Saved</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive Sync Completed</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="OrderFeature" xml:space="preserve">
+    <value>Order Feature</value>
+  </data>
+  <data name="OrderFeatureNote" xml:space="preserve">
+    <value>You can order your notes in a selected note folder and you can also order your note folders. You can order notes and note folders by name, creation date and last modification date with ascending or descending order. You can order your note folders in Other Settings section of General Settings. You can order notes in a specific note folder in Other Settings section of Folder Settings. You can see the order settings values on the page. If you don't want to order, the app automatically order notes and note folders by name with ascending order. (Except the notes and note folders which are created by the app when the app start.)</value>
+  </data>
+  <data name="OrderStyle" xml:space="preserve">
+    <value>Order Style</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>Other Settings</value>
+  </data>
+  <data name="Passive" xml:space="preserve">
+    <value>Passive</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordFalse" xml:space="preserve">
+    <value>Password Is False</value>
+  </data>
+  <data name="PasswordFeature" xml:space="preserve">
+    <value>Password Feature</value>
+  </data>
+  <data name="PasswordFeatureNote" xml:space="preserve">
+    <value>In a note folder, we can assign a password to folder from Password section in Folder Settings. In same place, you can remove the password of the selected note folder. Password have to be at least 4 digits. There is no limitation about the password must be numeric. After assigning password, program will ask you the password when you want to access note folder. You can just press Enter key after typing the password to the textboxes. This property is first at the marketplace of the Windows Phone. As you know, many people don't want to hide their shopping lists but they want to hide some special meeting notes. With this feature you can assign password which folder do you want.</value>
+  </data>
+  <data name="PasswordProtection" xml:space="preserve">
+    <value>Password Protection</value>
+  </data>
+  <data name="PasswordState" xml:space="preserve">
+    <value>Password State</value>
+  </data>
+  <data name="PasswordTrue" xml:space="preserve">
+    <value>Password Is True</value>
+  </data>
+  <data name="PleaseEnterPassword" xml:space="preserve">
+    <value>Enter Password</value>
+  </data>
+  <data name="PleaseReEnterPassword" xml:space="preserve">
+    <value>Re-Enter Password</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="PreviousNote" xml:space="preserve">
+    <value>Previous Note</value>
+  </data>
+  <data name="ProgramFeatures" xml:space="preserve">
+    <value>Program Features</value>
+  </data>
+  <data name="ProgramFeaturesNote" xml:space="preserve">
+    <value>Program has some features like creating note folder, assigning password to selected note folder, change the background color or image of application, change the background color or image of selected note folder, context search, OneDrive sync, change the note's note folder, send note via SMS or E-Mail, detailed font and order settings, multi language support, statistical information about the note. When the app installed, app create a local database in your mobile device and all information of the app will be stored on your mobile device. This is for your security.</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>Remove Background Image</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>Search Completed</value>
+  </data>
+  <data name="SearchFeature" xml:space="preserve">
+    <value>Search Feature</value>
+  </data>
+  <data name="SearchFeatureNote" xml:space="preserve">
+    <value>App has a feature that you can search notes within note name and note context. With this feature you can not lost within your notes. You just write the search parameter and press Enter key. Search results will be shown in the same page. There is a key point that, if you try to access a note which is in a note folder which is password protected, you will be navigated to enter password to access the note file. This feature is for you and your privacy.</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>You Have To Fill The Search Criteria</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>Select Font Family</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>Select Font Size</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Select The Language</value>
+  </data>
+  <data name="SelectNoteFolder" xml:space="preserve">
+    <value>Select Note Folder</value>
+  </data>
+  <data name="SelectOrderStyle" xml:space="preserve">
+    <value>Select Order Style</value>
+  </data>
+  <data name="SelectOrderType" xml:space="preserve">
+    <value>Select Order Type</value>
+  </data>
+  <data name="SelectPasswordState" xml:space="preserve">
+    <value>Select Password State</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>Send With Awesome Note App</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>Send With Mail</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>Send With SMS</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Set Password</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="SuccessfulAddNote" xml:space="preserve">
+    <value>Note Has Been Added Successfully</value>
+  </data>
+  <data name="SuccessfulAddNoteFolder" xml:space="preserve">
+    <value>Note Folder Has Been Added Successfully</value>
+  </data>
+  <data name="SuccessfulBackgroundColorChanged" xml:space="preserve">
+    <value>Background Color Has Been Changed Successfully</value>
+  </data>
+  <data name="SuccessfulBackgroundImageChanged" xml:space="preserve">
+    <value>Background Image Has Been Successfully Changed</value>
+  </data>
+  <data name="SuccessfulBackgroundImageRemoved" xml:space="preserve">
+    <value>Background Image Has Been Successfully Removed</value>
+  </data>
+  <data name="SuccessfulChangeFolderName" xml:space="preserve">
+    <value>Folder Name Has Been Successfully Changed</value>
+  </data>
+  <data name="SuccessfulChangeNoteFolder" xml:space="preserve">
+    <value>Your Note's Folder Succesfully Changed </value>
+  </data>
+  <data name="SuccessfulChangeNoteName" xml:space="preserve">
+    <value>Note Name Has Been Changed Successfully</value>
+  </data>
+  <data name="SuccessfulDeleteFolder" xml:space="preserve">
+    <value>Note Folder Has Been Deleted Successfully</value>
+  </data>
+  <data name="SuccessfulDeleteNote" xml:space="preserve">
+    <value>Note Has Been Deleted Successfully</value>
+  </data>
+  <data name="SuccessfulFontFamilyChanged" xml:space="preserve">
+    <value>Font Family Has Been Changed Successfully</value>
+  </data>
+  <data name="SuccessfulFontSizeChanged" xml:space="preserve">
+    <value>Font Size Has Been Changed Successfully</value>
+  </data>
+  <data name="SuccessfulOrderStyleChanged" xml:space="preserve">
+    <value>Order Style Has Been Successfully Changed</value>
+  </data>
+  <data name="SuccessfulOrderTypeChanged" xml:space="preserve">
+    <value>Order Type Has Been Successfully Changed</value>
+  </data>
+  <data name="SuccessfulRemovePassword" xml:space="preserve">
+    <value>Password Has Been Removed Successfully</value>
+  </data>
+  <data name="SuccessfulSendWithMail" xml:space="preserve">
+    <value>Your Note Successfully Sent By Mail</value>
+  </data>
+  <data name="SuccessfulSendWithSMS" xml:space="preserve">
+    <value>Your Note Successfully Sent By SMS</value>
+  </data>
+  <data name="SuccessfulSetPassword" xml:space="preserve">
+    <value>Password Has Been Set Successfully</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Sync</value>
+  </data>
+  <data name="SyncFeature" xml:space="preserve">
+    <value>Sync Feature</value>
+  </data>
+  <data name="SyncFeatureNote" xml:space="preserve">
+    <value>With this app you can sync all of your notes with your OneDrive account. In program's Sync section of General Settings, you should click the Sign In button and you should enter your SkyDrive account. While this process, you should accept the app access permission to complete syncronization. After login process completed, you should click the Sync button and app will create a folder (for example: Awesome Note (21.7.2014 02.08.57) ) and Sync your notes into this folder. You can follow the sync process from app's current page. Notes are synced as a text file and inside this text file you can see some detailed information about the note. Synced file name format is "Note Id. + Note Name + (Note Folder Name).txt". (for example "1. My Note (My Folder).txt") .A special point is, in this program we can not have any information about you like your note folder password. If you forgot your password, you can successfully access your protected notes just using Sync your notes in OneDrive.</value>
+  </data>
+  <data name="Syncronizing" xml:space="preserve">
+    <value>Synchronizing...</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Tips Of App</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Turkish</value>
+  </data>
+  <data name="TwoFieldsNotSame" xml:space="preserve">
+    <value>The Two Password Values Are Not Same</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="WelcomeNote" xml:space="preserve">
+    <value>Hi. I like taking notes and i use a lot of note taking program in PC and mobile devices. I want to create a good note taking app for you. I hope that you will be satisfied the app.</value>
+  </data>
+  <data name="WordNumber" xml:space="preserve">
+    <value>Number Of Words</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>System Has A Fault. Please Try Again Later...</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="Irish" xml:space="preserve">
+    <value>Irish</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>Persian</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>Sync All In One File</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Reset Settings</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>Background Settings Has Been Reset Successfully</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>Sanskrit</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>Thai</value>
+  </data>
+</root>

@@ -1,0 +1,62 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AwesomeNote.FolderSettings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <phone:Pivot Title="Awesome Note" FontSize="40">
+            <!--Pivot item one-->
+            <phone:PivotItem Name="piPassword" Header="Password" FontSize="35" >
+                <StackPanel Name="spLanguage">
+                    <TextBox Name="lblPassword" TextWrapping="Wrap" Text="Password State" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <toolkit:ListPicker Name="lpPassword" SelectionChanged="lpPassword_SelectionChanged" SelectedIndex="-1"></toolkit:ListPicker>
+                </StackPanel>
+            </phone:PivotItem>
+            <phone:PivotItem Name="piFont" Header="Font" FontSize="35">
+                <StackPanel Name="spFont">
+                    <TextBox Name="lblFontFamily" TextWrapping="Wrap" Text="Font Family" FontSize="20"  IsReadOnly="True"></TextBox>
+                    <!--<toolkit:ListPicker Name="lpFontFamily" SelectionChanged="lpFontFamily_SelectionChanged_1" SelectedIndex="-1" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">-->
+                    <!--</toolkit:ListPicker>-->
+                    <Button Name="btnFontFamily" Content="Select" Click="btnFontFamily_Click"></Button>
+                    <TextBox Name="lblFontSize" TextWrapping="Wrap" Text="Font Size" FontSize="20" IsReadOnly="True"></TextBox>
+                    <!--<toolkit:ListPicker Name="lpFontSize" SelectionChanged="lpFontSize_SelectionChanged" SelectedIndex="-1" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">-->
+                    <!--</toolkit:ListPicker>-->
+                    <Button Name="btnFontSize" Content="Select" Click="btnFontSize_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+            <!--Pivot item three-->
+            <phone:PivotItem Name="piBackground" Header="Background">
+                <StackPanel Name="spBackgroundImage">
+                    <TextBox Name="lblBackgroundImage" FontSize="20" Text="Background Image" IsReadOnly="True" FontFamily="Segoe WP" TextWrapping="Wrap"></TextBox>
+                    <Button Name="btnBackgroundImage" Content="Select" Click="btnBackgroundImage_Click"></Button>
+                    <Button Name="btnRemoveBackgroundImage" Content="Select" Click="btnRemoveBackgroundImage_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+            <!--Pivot item two-->
+            <phone:PivotItem Name="piOtherSettings" Header="Other Settings" FontSize="35">
+                <StackPanel Name="spOtherSettings">
+                    <TextBox Name="lblNoteOrder" TextWrapping="Wrap" FontSize="20" Text="Order Notes By" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <!--<toolkit:ListPicker Name="lpNoteOrder" SelectionChanged="lpNoteOrder_SelectionChanged" SelectedIndex="-1"></toolkit:ListPicker>-->
+                    <Button Name="btnNoteOrder" Content="Select" Click="btnNoteOrder_Click"></Button>
+                    <TextBox Name="lblNoteOrderStyle" TextWrapping="Wrap" FontSize="20" Text="Order Type" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <!--<toolkit:ListPicker Name="lpNoteOrderType" SelectionChanged="lpNoteOrderType_SelectionChanged" SelectedIndex="-1"></toolkit:ListPicker>-->
+                    <Button Name="btnNoteOrderStyle" Content="Select" Click="btnNoteOrderStyle_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>
