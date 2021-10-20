@@ -9,7 +9,7 @@ In this app you can;
  - Assign password to your notes for security
  - Send notes via E-Mail or SMS
  - Search notes by name and content
- - Gather statistical info about names
+ - Gather statistical info about notes
  - Set application language (Application supports **Turkish**, **English**, **German**, **French**, **Italian**, **Chinese**, **Arabic**, **Persian**, **Russian**, **Spanish**, **Portuguese**, **Sanskrit**, **Thai**)
  - Take backup and restore with OneDrive account
  - And the other functionalities like
