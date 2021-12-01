@@ -1,5 +1,7 @@
 # Awesome Note
 
+![GitHub stars](https://img.shields.io/github/stars/coderserdar/AwesomeNote?style=social) ![GitHub forks](https://img.shields.io/github/forks/coderserdar/AwesomeNote?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/coderserdar/AwesomeNote?style=social) ![GitHub repo size](https://img.shields.io/github/repo-size/coderserdar/AwesomeNote?style=plastic) ![GitHub language count](https://img.shields.io/github/languages/count/coderserdar/AwesomeNote?style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/coderserdar/AwesomeNote?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/coderserdar/AwesomeNote?color=red&style=plastic)
+
 This is a **Windows Phone** app which is used to *take notes* and use it like Google Keep, OneNote, EverNote.
 This app is written in **C#** programming language and in **Visual Studio 2015**. 
 
